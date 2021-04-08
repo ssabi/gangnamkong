@@ -1,6 +1,5 @@
 @charset "UTF-8";
 *{margin:0;padding:0;-webkit-text-size-adjust:none;word-break:keep-all;box-sizing:border-box}
-*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}
 body,html{-webkit-text-size-adjust:none;-webkit-overflow-scrolling:touch}
 html{overflow-y:scroll;-ms-overflow-x:hidden}
 html.laypop{overflow-y:hidden}
@@ -19,6 +18,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{di
 button,input,select,textarea{vertical-align:middle;border:none;border-radius:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}
 label{vertical-align:middle}
 textarea{width:100%;border:0;overflow-y:auto;resize:none}
+*,*:after,*:before{-webkit-box-sizing:border-box;box-sizing:border-box}
 
 body{font-family:'Noto Sans KR', sans-serif;}
 .roboto{font-family:'Roboto', sans-serif !important;}
