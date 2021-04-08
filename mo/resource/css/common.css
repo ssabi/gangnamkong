@@ -20,10 +20,10 @@
 /* Footer */
 #footer{background-color:#fff;}
 #footer .inner{padding:20px 20px 0;}
-.btm_info{display:table;width:100%;table-layout:fixed;}
-.btm_info .left_side{display:table-cell;width:190px;padding-right:5px;}
-.btm_info .right_side{display:table-cell;width:145px;}
-.btm_info > div div{border:1px solid #e6e6e6;border-radius:10px;}
-.btm_info .cs{height:200px;}
-.btm_info .inquiry{height:97px;}
-.btm_info .kakao{height:98px;margin-top:5px;}
+.ft_info{display:table;width:100%;table-layout:fixed;}
+.ft_info .left_side{display:table-cell;width:190px;padding-right:5px;}
+.ft_info .right_side{display:table-cell;width:145px;}
+.ft_info > div div{border:1px solid #e6e6e6;border-radius:10px;}
+.ft_info .cs{height:200px;}
+.ft_info .inquiry{height:97px;}
+.ft_info .kakao{height:98px;margin-top:5px;}
