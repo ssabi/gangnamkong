@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+    <defs>
+        <clipPath id="lez6m1a77a">
+            <path fill="#fff" stroke="#707070" d="M0 0H46V46H0z" transform="translate(.169 .166)"/>
+        </clipPath>
+        <clipPath id="nn2zed5s8b">
+            <path fill="#fff" stroke="#fff" d="M0 0H46V46H0z" transform="translate(.169 .168)"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-144.937 -1000.937)">
+        <circle cx="35" cy="35" r="35" fill="#ffb2ca" opacity="0.6" transform="translate(144.937 1000.937)"/>
+        <g clip-path="url(#lez6m1a77a)" transform="translate(155.767 1011.769)">
+            <g clip-path="url(#nn2zed5s8b)" transform="translate(0 -.001)">
+                <g>
+                    <path fill="#fff" d="M39.614 41.455a2.818 2.818 0 0 0-2.2-1.051H6.739l-.274-1.963A2.842 2.842 0 0 0 3.663 36h-2.4a1.258 1.258 0 1 0 0 2.515h2.4a.316.316 0 0 1 .311.271l3.395 24.331a2.842 2.842 0 0 0 2.8 2.439h1.364a3.773 3.773 0 1 0 7.113 0h6.721a3.773 3.773 0 1 0 7.113 0h2.732a1.258 1.258 0 0 0 0-2.515H10.171a.316.316 0 0 1-.311-.271l-.313-2.244h24.767a2.845 2.845 0 0 0 2.767-2.237l3.1-14.462a2.817 2.817 0 0 0-.566-2.372zM16.349 66.814a1.258 1.258 0 1 1-1.258-1.258 1.259 1.259 0 0 1 1.258 1.258zm13.834 0a1.258 1.258 0 1 1-1.258-1.258 1.259 1.259 0 0 1 1.258 1.258zM37.721 43.3l-3.1 14.462a.317.317 0 0 1-.308.249H9.2L7.09 42.919h30.323a.314.314 0 0 1 .308.38z" transform="translate(2.356 7.059) translate(0 -36.002)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

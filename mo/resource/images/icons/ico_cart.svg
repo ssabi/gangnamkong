@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_13" d="M0 0H20V20H0z" class="cls-1" transform="translate(-5509 55)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="사각형_12" d="M0 0H20V20H0z" class="cls-1" transform="translate(-5463 50)"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#fff;stroke:#707070}
+        </style>
+    </defs>
+    <g id="그룹_772" transform="translate(-207 -1878)">
+        <g id="카트" transform="translate(-1253 1827)">
+            <g id="마스크_그룹_5" clip-path="url(#clip-path)" transform="translate(6969 -4)">
+                <g id="마스크_그룹_4" clip-path="url(#clip-path-2)" transform="translate(-46 5)">
+                    <g id="cart" transform="translate(-5463 15.998)">
+                        <path id="패스_1" fill="#666" d="M19.612 38.7a1.4 1.4 0 0 0-1.09-.52H3.336l-.136-.971A1.407 1.407 0 0 0 1.813 36H.623a.623.623 0 0 0 0 1.245h1.19a.156.156 0 0 1 .154.134l1.681 12.047a1.407 1.407 0 0 0 1.387 1.207h.675a1.868 1.868 0 1 0 3.522 0h3.327a1.868 1.868 0 1 0 3.522 0h1.352a.623.623 0 1 0 0-1.245H5.036a.156.156 0 0 1-.154-.134l-.155-1.111h12.261a1.409 1.409 0 0 0 1.37-1.107l1.534-7.16a1.4 1.4 0 0 0-.28-1.174zM8.094 51.256a.623.623 0 1 1-.623-.623.623.623 0 0 1 .623.623zm6.849 0a.623.623 0 1 1-.623-.623.623.623 0 0 1 .623.623zm3.732-11.641l-1.534 7.16a.157.157 0 0 1-.152.123H4.553L3.51 39.426h15.012a.156.156 0 0 1 .152.188z"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

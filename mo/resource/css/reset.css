@@ -8,7 +8,7 @@ blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,l
 body,button,input,select,table,textarea{font-family:'Noto Sans',sans-serif;color:#000;font-size:16px;line-height:1}
 em{font-style:normal}
 fieldset,img{border:0 none}
-img{vertical-align:middle}
+img{max-width:100%;vertical-align:middle}
 dl,li,menu,ol,ul{list-style:none}
 input::-ms-clear{display:none}
 button{border:0 none;border-radius:0;background-color:transparent;cursor:pointer}
