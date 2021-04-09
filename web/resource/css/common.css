@@ -12,7 +12,7 @@
 
 /* gnb */
 #header .gnb-wrap{padding: 5px 0; border-bottom: solid 1px #e6e6e6;font-size: 14px;background-color: #fff;}
-#header .gnb-wrap .inner .gnb{display: inline-block;padding: 10px 0;}
+#header .gnb-wrap .inner .gnb{display: inline-block;padding: 10px 0;vertical-align:middle;}
 #header .gnb-wrap .inner .gnb li{float: left;padding-right: 74px;font-weight: 500;line-height: 1.43;}
 #header .gnb-wrap .inner .gnb li.category{background:url(../images/icon/ico_category.svg) no-repeat left top;color: #ffb2ca;padding-left: 26px;background-size: 20px;}
 #header .gnb-wrap .inner .search-wrap{position: absolute;right: 60px;top: 0;}
