@@ -1,29 +1,374 @@
 <!DOCTYPE html>
 <html lang=ko>
 <head>
-    <meta charset="UTF-8">
-    <title>강남콩 :: 프리미엄 생수, 탄산수, 식자재 홈 딜리버리</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../resource/css/reset.css" />
-    <script src="../resource/js/libs/jquery.js"></script>
-    <script src="../resource/js/libs/swiperjs.min.js"></script>
+	<meta charset="UTF-8">
+	<title>강남콩 :: 프리미엄 생수, 탄산수, 식자재 홈 딜리버리</title>
+	<!--font-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<!--css-->
+	<link rel="stylesheet" href="../resource/css/reset.css" />
+	<link rel="stylesheet" href="../resource/css/common.css" />
+	<link rel="stylesheet" href="../resource/css/main.css" />
+	<!--js-->
+	<script src="../resource/js/libs/jquery-3.6.0.min.js"></script>
+	<script src="../resource/js/libs/swiperjs.min.js"></script>
+	<script src="../resource/js/main.js"></script>
 </head>
+
 <body>
-<div id="wrap">
-    <div id="header">
+	<div id="header">
+		<div class="top-wrap">
+			<div class="inner">
+				<div class="logo">
+					<a href="index.html" title="메인"><img src="../resource/images/common/logo.png" alt="logo"></a>
+				</div>
+				<div class="login">
+					<ul>
+						<li>
+							<a href="#none">회원가입</a>
+						</li>
+						<li>
+							<a href="#none">로그인</a>
+						</li>
+						<li>
+							<a href="#none">고객센터</a>
+						</li>
+						<li>
+							<a href="#none">강남콩 소개</a>
+						</li>
+						<li>
+							<a href="#none">구매후기</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="gnb-wrap">
+			<div class="inner">
+				<ul class="gnb">
+					<li class="category">
+						<a href="#none">카테고리</a>
+					</li>
+					<li>
+						<a href="#none">특가상품</a>
+					</li>
+					<li>
+						<a href="#none">신상품</a>
+					</li>
+					<li>
+						<a href="#none">베스트</a>
+					</li>
+					<li>
+						<a href="#none">레시피상품</a>
+					</li>
+				</ul>
+				<div class="search-wrap">
+					<input type="text" class="search-input">
+					<span class="search-ico">
+						<a href="#none">
+							<img src="../resource/images/icon/ico_search.svg" alt="장바구니">
+						</a>
+					</span>
+				</div>
+				<div class="cart">
+					<a href="#none">
+						<img src="../resource/images/icon/ico_cart.svg" alt="장바구니">
+						<span class="badge roboto">2</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Header -->
+	<div id="container">
+		<div class="banner">
+			<!-- Swiper -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="#none">
+							<img src="../resource/images/main/main-banner.png" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="#none">
+						<img src="../resource/images/main/main-banner.png" alt="">
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="#none">
+						<img src="../resource/images/main/main-banner.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contents">
+			<img src="../resource/images/main/img-subbanner01.png" alt="더보기">
+			<h2 class="tit">
+				<a href="#none">특가상품</a>
+			</h2>
+			<h3 class="sub-tit">강남콩의 특가 상품을 바로 만나보세요.</h3>
+			<div class="plp-wrap">
+				<ul class="plp-list">
+					<!-- 비활성화시 class="disabled" 추가해주세요 -->
+					<li class="disabled">
+						<a href="#none">
+							<img src="../resource/images/main/plp-img.png" alt="">
+							<div class="plp-box">
+								<div class="name">
+									뉴욕셀처 레몬&라임 소다 296ml x 24ea
+								</div>
+								<div class="price roboto">
+									<span class="sale">50,182</span>원
+									<span class="origin">55,200원</span>
+									<span class="percent">9%</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#none">
+							<img src="../resource/images/main/plp-img-none.png" alt="">
+							<div class="plp-box">
+								<div class="name">
+									뉴욕셀처 레몬&라임 소다 296ml x 24ea
+								</div>
+								<div class="price roboto">
+									<span class="sale">50,182</span>원
+									<span class="origin">55,200원</span>
+									<span class="percent">9%</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#none">
+							<img src="../resource/images/main/plp-img01.png" alt="">
+							<div class="plp-box">
+								<div class="name">
+									아리조나 4종 내맘대로 믹스팩(PET) 500ml x 20ea
+								</div>
+								<div class="price roboto">
+									<span class="sale">50,182</span>원
+									<span class="origin">55,200원</span>
+									<span class="percent">9%</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#none">
+							<img src="../resource/images/main/plp-img.png" alt="">
+							<div class="plp-box">
+								<div class="name">
+									뉴욕셀처 레몬&라임 소다 296ml x 24ea
+								</div>
+								<div class="price roboto">
+									<span class="sale">50,182</span>원
+									<span class="origin">55,200원</span>
+									<span class="percent">9%</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#none">
+							<img src="../resource/images/main/plp-img.png" alt="">
+							<div class="plp-box">
+								<div class="name">
+									뉴욕셀처 레몬&라임 소다 296ml x 24ea
+								</div>
+								<div class="price roboto">
+									<span class="sale">50,182</span>원
+									<span class="origin">55,200원</span>
+									<span class="percent">9%</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#none">
+							<img src="../resource/images/main/plp-img.png" alt="">
+							<div class="plp-box">
+								<div class="name">
+									뉴욕셀처 레몬&라임 소다 296ml x 24ea
+								</div>
+								<div class="price roboto">
+									<span class="sale">50,182</span>원
+									<span class="origin">55,200원</span>
+									<span class="percent">9%</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#none">
+							<img src="../resource/images/main/plp-img.png" alt="">
+							<div class="plp-box">
+								<div class="name">
+									뉴욕셀처 레몬&라임 소다 296ml x 24ea
+								</div>
+								<div class="price roboto">
+									<span class="sale">50,182</span>원
+									<span class="origin">55,200원</span>
+									<span class="percent">9%</span>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#none">
+							<img src="../resource/images/main/plp-img.png" alt="">
+							<div class="plp-box">
+								<div class="name">
+									바두아 탄산수 330ml x 20ea
+								</div>
+								<div class="price roboto">
+									<span class="sale">50,182</span>원
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--//특가상품-->
+		<div class="bg-skyblue">
+			<div class="contents new-product">
+				<h2 class="tit">
+					<a href="#none">신상품</a>
+				</h2>
+				<h3 class="sub-tit">최근 입점된 신상품을 만나보세요.</h3>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide first">
+							<a href="#none">
+								<img src="../resource/images/main/plp-img368.png" alt="">
+								<div class="plp-box">
+									<div class="name">
+										뷰코 코코넛 밀크 프리미엄 1L x 6ea
+									</div>
+									<div class="price roboto">
+										<span class="sale">50,182</span>원
+										<span class="origin">55,200원</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#none">
+								<img src="../resource/images/main/plp-img270.png" alt="">
+								<div class="plp-box">
+									<div class="name">
+										뷰코 코코넛 밀크 프리미엄 1L x 6ea
+									</div>
+									<div class="price roboto">
+										<span class="sale">50,182</span>원
+										<span class="origin">55,200원</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#none">
+								<img src="../resource/images/main/plp-img270.png" alt="">
+								<div class="plp-box">
+									<div class="name">
+										뷰코 코코넛 밀크 프리미엄 1L x 6ea
+									</div>
+									<div class="price roboto">
+										<span class="sale">50,182</span>원
+										<span class="origin">55,200원</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#none">
+								<img src="../resource/images/main/plp-img270.png" alt="">
+								<div class="plp-box">
+									<div class="name">
+										뷰코 코코넛 밀크 프리미엄 1L x 6ea
+									</div>
+									<div class="price roboto">
+										<span class="sale">50,182</span>원
+										<span class="origin">55,200원</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#none">
+								<img src="../resource/images/main/plp-img270.png" alt="">
+								<div class="plp-box">
+									<div class="name">
+										뷰코 코코넛 밀크 프리미엄 1L x 6ea
+									</div>
+									<div class="price roboto">
+										<span class="sale">50,182</span>원
+										<span class="origin">55,200원</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#none">
+								<img src="../resource/images/main/plp-img270.png" alt="">
+								<div class="plp-box">
+									<div class="name">
+										뷰코 코코넛 밀크 프리미엄 1L x 6ea
+									</div>
+									<div class="price roboto">
+										<span class="sale">50,182</span>원
+										<span class="origin">55,200원</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#none">
+								<img src="../resource/images/main/plp-img270.png" alt="">
+								<div class="plp-box">
+									<div class="name">
+										뷰코 코코넛 밀크 프리미엄 1L x 6ea
+									</div>
+									<div class="price roboto">
+										<span class="sale">50,182</span>원
+										<span class="origin">55,200원</span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#none">
+								<img src="../resource/images/main/plp-img270.png" alt="">
+								<div class="plp-box">
+									<div class="name">
+										뷰코 코코넛 밀크 프리미엄 1L x 6ea
+									</div>
+									<div class="price roboto">
+										<span class="sale">50,182</span>원
+										<span class="origin">55,200원</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- Add Arrows -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Container -->
+	<div id="footer">
 
-    </div>
-    <!-- //Header -->
-    <div id="container">
+	</div>
+	<!-- //Footer -->
 
-    </div>
-    <!-- //Container -->
-    <div id="footer">
-
-    </div>
-    <!-- //Footer -->
-</div>
-<!-- //Wrapper -->
 </body>
+
 </html>

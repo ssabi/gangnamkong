@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_105" fill="#fff" stroke="#707070" d="M0 0H20V20H0z" transform="translate(-5463 50)"/>
+        </clipPath>
+        <style>
+            .cls-6{fill:none}.cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="그룹_57" clip-path="url(#clip-path)" transform="translate(5463 -50)">
+        <g id="그룹_56" stroke="#ffb2ca" stroke-width="2px" transform="translate(23.73 -3.835)">
+            <g id="타원_8" fill="none" transform="translate(-5486.73 53.835)">
+                <circle cx="8" cy="8" r="8" class="cls-5"/>
+                <circle cx="8" cy="8" r="7" class="cls-6"/>
+            </g>
+            <g id="사각형_104" fill="#fff" transform="rotate(-45 -2655.625 6641.186)">
+                <rect width="2" height="8.171" class="cls-5" rx="1"/>
+                <rect height="6.171" x="1" y="1" class="cls-6"/>
+            </g>
+        </g>
+    </g>
+</svg>
