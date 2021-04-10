@@ -61,6 +61,7 @@
 .color-pink{color: #ffb2ca;}
 
 /* btn */
+.btn-sm{width: auto; height: 30px;font-size: 16px;line-height: 30px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;padding: 3px 20px;}
 .btn-md{width: 155px; height: 60px;font-size: 18px;line-height: 60px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;}
 .btn-large{width: 320px; height: 60px;font-size: 18px;line-height: 60px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;}
 .btn-linepink{border-color: #ffb2ca;color: #ffb2ca;}
