@@ -82,3 +82,25 @@
 .sub-bottom-swiper .swiper-slide .plp-box .price .origin{font-size: 14px;color: #c8c8c8;font-weight: 400;text-decoration: line-through;padding: 0 8px;}
 .sub-bottom-swiper .swiper-slide .plp-box .price .percent{font-size: 20px;color: #ffb2ca;}
 .sub-bottom-swiper .swiper-btn-wrap{position: absolute;top: 50%;width: 100%;}
+
+/*mypage*/
+.mypage{background-color: #f9f9f9;}
+.mypage .member-info-wrap{padding: 50px 0 100px;}
+.mypage .member-info-wrap .info-box{border-radius: 10px;border: solid 1px #e6e6e6;background-color: #ffffff;padding: 50px 0 50px 60px;}
+.mypage .member-info-wrap .info-box ul{position: relative;display: inline-block;}
+.mypage .member-info-wrap .info-box ul li{text-align: center;border-right: 1px solid #e6e6e6;width: 180px;height: 180px;float: left;}
+.mypage .member-info-wrap .info-box ul li.member{width: 300px;font-size: 35px;line-height: 1.51;text-align: left;}
+.mypage .member-info-wrap .info-box ul li.member .color-pink{font-weight: 500;}
+.mypage .member-info-wrap .info-box ul li.member .btn-area{margin-top: 10px;}
+.mypage .member-info-wrap .info-box ul li:last-child{border:none;}
+.mypage .member-info-wrap .info-box ul li .tit{font-size: 14px;margin-top: 57px;}
+.mypage .member-info-wrap .info-box ul li .number{margin-top: 10px;}
+.mypage .member-info-wrap .info-box ul li .number > .color-pink{font-size: 30px;font-weight: 500;padding-right: 3px;}
+.mypage .myinfo-wrap {position: relative;display: inline-block;width: 100%;}
+.mypage .myinfo-wrap .left-menu{width: 220px;float: left;margin-right: 60px;}
+.mypage .myinfo-wrap .left-menu h2{font-size: 30px;font-weight: 700;line-height: 1.5;margin-bottom: 20px;}
+.mypage .myinfo-wrap .left-menu .menu-box{margin-bottom: 30px; padding: 10px 20px;border-radius: 10px;border: solid 1px #e6e6e6;background-color: #ffffff;}
+.mypage .myinfo-wrap .left-menu .menu-box ul li{line-height: 1.5;color: #595959;padding:13px 0;border-bottom: 1px solid #e6e6e6;}
+.mypage .myinfo-wrap .left-menu .menu-box ul li:last-child{border: none;}
+.mypage .myinfo-wrap .left-menu .menu-box ul li.on{color: #ffb2ca;}
+.mypage .myinfo-wrap .right-box{margin-bottom: 130px;height: 880px;float: left;width: calc(100% - 280px);background-color: #ccc;  border-radius: 20px;}

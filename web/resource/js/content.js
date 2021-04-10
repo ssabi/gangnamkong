@@ -31,4 +31,10 @@ $(document).ready(function() {
       prevEl: '.swiper-button-prev',
     },
   });
+
+  //마이페이지 메뉴
+  $('.left-menu li').click(function(){
+    $(this).closest(".left-menu").find("li").removeClass("on");
+    $(this).addClass('on');
+  });
 });
