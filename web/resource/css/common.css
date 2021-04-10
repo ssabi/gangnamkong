@@ -23,10 +23,41 @@
 
 /* Footer */
 #footer{background-color:#fff;}
-#footer .inner{padding:20px 20px 0;}
+.ft-top{border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;}
+.ft-top .inner{overflow:hidden;width:1280px;height:72px;margin:0 auto;}
+.ft-menu{overflow:hidden;float:left;margin:25px 0 0 90px;}
+.ft-menu li{position:relative;float:left;margin-left:15px;padding-left:15px;font-size:14px;}
+.ft-menu li:before{content:'';position:absolute;left:0;top:5px;width:1px;height:12px;background-color:#707070;}
+.ft-menu li:first-child{margin-left:0;padding-left:0;}
+.ft-menu li:first-child:before{display:none;}
+.ft-menu li a{display:block;line-height:20px;color:#595959;}
+.sns{overflow:hidden;float:right;padding:20px 0;margin-right:91px;}
+.sns li{float:left;}
+.sns li + li{margin-left:10px;}
+.sns li a{display:block;overflow:hidden;width:30px;height:30px;text-indent:-9999px;}
+.sns li a.sns-kakao{background:url(../images/icon/ico_kakao.png) no-repeat left top;}
+.sns li a.sns-instar{background:url(../images/icon/ico_insta.png) no-repeat left top;}
+.sns li a.sns-facebook{background:url(../images/icon/ico_facebook.png) no-repeat left top;}
+.sns li a.sns-blog{background:url(../images/icon/ico_blog.png) no-repeat left top;}
+
+.ft-btm{}
+.ft-btm .inner{width:1280px;height:323px;margin:0 auto;}
+.ft-btm .left-side,
+.ft-btm .right-side{position:relative;float:left;}
+.ft-btm .left-side{width:1018px;padding:49px 0 0 175px;}
+.ft-btm .left-side .btm-logo{position:absolute;left:90px;top:50px;}
+.ft-btm .left-side p{font-size:14px;line-height:23px;color:#828282;}
+.ft-btm .left-side .copyright{margin:6px 0 18px;color:#595959;}
+.ft-btm .right-side{width:200px;}
+.ft-btm .right-side dl{padding:51px 0 14px;}
+.ft-btm .right-side dl dt{font-weight:normal;font-size:15px;line-height:20px;color:#333;}
+.ft-btm .right-side dl dd{margin-top:2px;font-family: 'Roboto', sans-serif !important;font-weight:500;font-size:28px;line-height:32px;color:#333;}
+.ft-btm .right-side p{font-size:14px;line-height:24px;color:#828282;}
+.ft-btm .right-side p span{font-weight:500;color:#595959;}
+.ft-btm .right-side p span.lts{letter-spacing:-0.03em;}
 
 /* color */
-.bg-skyblue{background-color: #f5f9fc;}
+.bg-skyblue{overflow:hidden;min-width:1280px;background-color: #f5f9fc;}
 .color-pink{color: #ffb2ca;}
 
 /* btn */

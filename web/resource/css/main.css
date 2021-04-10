@@ -73,7 +73,6 @@ h2.main-tit a{background:url(../images/icon/ico_arrow-right.svg) no-repeat right
 .best-list-wrap ul li .price .sale{display:inline-block;margin-right:7px;font-weight:bold;font-size:12px;vertical-align:middle;}
 .best-list-wrap ul li .price .sale span{font-size:18px;}
 .best-list-wrap ul li .price .origin{display:inline-block;margin-right:7px;font-size:14px;color:#c8c8c8;text-decoration:line-through;vertical-align:middle;}
-.best-list-wrap ul li .price .origin span{}
 .best-list-wrap ul li .price .percent{display:inline-block;font-weight:bold;font-size:20px;color:#ffb2ca;vertical-align:middle;}
 .best-list-wrap ul li.first .badge{width:60px;height:40px;left:25px;top:20px;font-size:30px;line-height:40px;}
 .best-list-wrap ul li.first a > div{padding:30px 30px 0;}
@@ -84,13 +83,32 @@ h2.main-tit a{background:url(../images/icon/ico_arrow-right.svg) no-repeat right
 .best-list-wrap ul li.first .price .origin{position:absolute;left:0;top:0;margin-right:0;font-weight:400;font-size:22px;line-height:33px;}
 .best-list-wrap ul li.first .price .percent{font-weight:bold;font-size:25px;line-height:29px;vertical-align:baseline;}
 
-.recipe-wrap{}
+.recipe-wrap{position:relative;}
 .recipe-wrap:after{content:'';display:block;clear:both;}
 .recipe-wrap .left-side{width:388px;}
-.recipe-wrap .right-side{width:calc(100% - 388px);}
-.recipe{position:absolute;right:0;top:141px;width:63.125%;}
+/* .recipe-wrap .right-side{width:calc(100% - 388px);} */
+.recipe{position:absolute;left:388px;/*right:0;*/right:calc(((100vw - 1280px) / 2) * -1);top:141px;min-width:892px;/*width:63.125%;*/}
+.recipe .swiper-container{padding-bottom:50px;}
 .recipe .swiper-slide{width:500px;}
-.recipe .swiper-slide a{display:block;position:relative;}
+.recipe .swiper-slide a{display:block;position:relative;border-radius:20px;}
 .recipe .swiper-slide a:after{content:'';position:absolute;left:0;top:0;width:100%;height:100%;border-radius:20px;background:#40151f;opacity:0.3;}
-.recipe .swiper-slide.swiper-slide-active a{}
+.recipe .swiper-slide.swiper-slide-active a{box-shadow:10px 10px 20px rgba(255, 178,202, 0.5)}
 .recipe .swiper-slide.swiper-slide-active a:after{border:3px solid #ffb2ca;background:transparent;opacity:1;}
+
+.recipe-info{padding-top:66px;}
+.recipe-info .name{display:block;font-weight:500;font-size:20px;line-height:27px;color:#595959;}
+.recipe-info .price{padding-top:13px;}
+.recipe-info .price .origin{display:block;font-size:18px;line-height:24px;color:#595959;text-decoration:line-through;}
+.recipe-info .price .sale{display:block;font-weight:bold;font-size:22px;line-height:47px;color:#ffb2ca;}
+.recipe-info .price .sale span{font-size:40px;}
+
+.recipe-control{position:relative;margin-top:24px;width:140px;height:60px;}
+.recipe-control .swiper-button-next,
+.recipe-control .swiper-button-prev{top:0;transform:none;}
+.recipe-control .swiper-button-next{right:0 !important;}
+.recipe-control .swiper-button-prev{left:0 !important;}
+
+.recipe-pagination{position:relative;margin-top:34px;width:100%;text-align:center;}
+.recipe-pagination .swiper-pagination{width:100%;}
+.recipe-pagination .swiper-pagination-bullet{width:8px;height:8px;margin:0 5px;background-color:#c8c8c8;opacity:1;vertical-align:middle;}
+.recipe-pagination .swiper-pagination-bullet-active{width:10px;height:10px;background-color:#ffb2ca;}

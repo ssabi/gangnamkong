@@ -36,11 +36,11 @@ $(document).ready(function() {
 		loop: true,
 		preventClicks: true,
 		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev'
+			nextEl: '.recipe-control .swiper-button-next',
+			prevEl: '.recipe-control .swiper-button-prev'
 		},
 		pagination: {
-			el: '.swiper-pagination'
+			el: '.recipe-pagination .swiper-pagination'
 		}
 	});
 });
