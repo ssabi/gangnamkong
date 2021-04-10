@@ -40,7 +40,7 @@
 .sns li a.sns-facebook{background:url(../images/icon/ico_facebook.png) no-repeat left top;}
 .sns li a.sns-blog{background:url(../images/icon/ico_blog.png) no-repeat left top;}
 
-.ft-btm{}
+.ft-btm{clear:both;}
 .ft-btm .inner{width:1280px;height:323px;margin:0 auto;}
 .ft-btm .left-side,
 .ft-btm .right-side{position:relative;float:left;}
