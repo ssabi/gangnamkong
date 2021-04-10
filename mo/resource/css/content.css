@@ -1,0 +1,41 @@
+#container .inner{padding:0 20px;}
+
+/* Visual Swiper */
+.visual_swiper{}
+.visual_swiper .swiper-pagination-fraction{display:flex;left:20px;bottom:20px;width:80px;height:35px;border-radius:71px;background-color:rgba(0, 0, 0, 0.3);font-family:'Roboto', sans-serif;font-size:15px;line-height:18px;font-weight:normal;color:#fff;align-items:center;justify-content:center;}
+.visual_swiper .swiper-pagination-fraction .swiper-pagination-current{margin-right:5px;font-weight:bold}
+.visual_swiper .swiper-pagination-fraction .swiper-pagination-total{margin-left:5px;}
+
+/* Banner */
+.banner_area{margin-top:30px;}
+.banner_area a{display:block;}
+
+/* BG */
+.bg_skyblue{background-color:#f5f9fc;}
+.bg_pink{background-color:#fff5f8;}
+
+/* Title */
+.tit{display:block;padding-top:30px;font-weight:bold;font-size:22px;color:#333;}
+.tit a{display:inline-block;position:relative;padding-right:25px;line-height:33px;color:inherit;vertical-align:middle;}
+.tit a:after{content:'';display:block;position:absolute;right:0;top:50%;margin-top:-8px;width:20px;height:20px;background:url(../images/icons/ico_right_arrow.svg) no-repeat left top;background-size:100%;}
+.desc{margin-top:5px;font-size:14px;line-height:20px;color:#999;}
+.bg_skyblue .tit,
+.bg_pink .tit{padding-top:47px;}
+
+/* 특가상품 */
+.special_list{display:flex;margin-top:20px;padding-bottom:20px;flex-wrap:wrap;}
+.special_list .item{flex:1;}
+.special_list .item:nth-child(2n-1){margin-right:11px;}
+.special_list .info{padding:8px 10px 0;height:119px;}
+.special_list .info .name{overflow:hidden;height:50px;font-size:15px;line-height:25px;color:#595959;}
+.special_list .info .price{display:flex;padding-top:12px;}
+.special_list .info .price .sale{margin-right:10px;font-weight:bold;font-size:10px;line-height:19px;color:#333;}
+.special_list .info .price .sale span{font-family:'Roboto', sans-serif;font-size:16px;}
+.special_list .info .price .origin{margin-right:5px;font-size:12px;line-height:18px;color:#c8c8c8;text-decoration:line-through;}
+.special_list .info .price .origin span{font-family:'Roboto', sans-serif;}
+.special_list .info .price .percent{font-weight:bold;font-size:14px;line-height:16px;color:#ffb2ca;}
+
+/* 신상품 */
+.new_swiper{margin-top:20px;}
+.new_swiper .swiper-container{padding:0 20px 0 5px;}
+.new_swiper .swiper-slide{width:285px;margin-left:15px;}
