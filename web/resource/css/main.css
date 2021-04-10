@@ -37,6 +37,8 @@ h2.main-tit a{background:url(../images/icon/ico_arrow-right.svg) no-repeat right
 .new-product{position:relative;margin:30px 0 0;}
 .new-product .swiper-container{overflow:visible;}
 .new-product .swiper-slide{width: 270px;margin-right:20px;opacity:0.2;}
+.new-product .swiper-slide a > span{display:block;position:relative;}
+.new-product .swiper-slide .badge{display:block;position:absolute;left:10px;top:10px;width:44px;height:21px;background-color:#ffb2ca;text-align:center;font-family: 'Roboto', sans-serif !important;font-size:12px;line-height:21px;color:#fff;}
 .new-product .swiper-slide img{width:100%;height:336px;}
 .new-product .swiper-slide.swiper-slide-active{width: 368px;margin-right:62px;opacity:1;}
 .new-product .swiper-slide.swiper-slide-active img{height:458px;}
@@ -50,6 +52,7 @@ h2.main-tit a{background:url(../images/icon/ico_arrow-right.svg) no-repeat right
 .new-product .plp-box .price .sale{display:inline-block;margin-right:7px;font-weight:bold;font-size:12px;color:#333;vertical-align:middle;}
 .new-product .plp-box .price .sale span{font-size:18px;}
 .new-product .plp-box .price .origin{display:inline-block;font-size:14px;color:#c8c8c8;text-decoration:line-through;vertical-align:middle;}
+.new-product .swiper-slide-active .badge{left:20px;top:20px;width:61px;height:28px;font-size:16px;line-height:28px;}
 .new-product .swiper-slide-active .plp-box{padding:20px 0 0;}
 .new-product .swiper-slide-active .plp-box .price{padding:11px 0 0;}
 .new-product .swiper-slide-active .plp-box .price .sale{font-size:20px;line-height:33px;}
@@ -62,7 +65,8 @@ h2.main-tit a{background:url(../images/icon/ico_arrow-right.svg) no-repeat right
 .best-list-wrap ul li.first{width:470px;height:874px;}
 .best-list-wrap ul li:nth-child(5), .best-list-wrap ul li:nth-child(6), .best-list-wrap ul li:nth-child(7){margin-top:14px;}
 .best-list-wrap ul li a{display:block;width:100%;height:100%;border:1px solid #e6e6e6;}
-.best-list-wrap ul li a > span{display:block;margin:-1px -1px 0;}
+.best-list-wrap ul li a > span{display:block;position:relative;margin:-1px -1px 0;}
+.best-list-wrap ul li a .badge{display:block;position:absolute;left:15px;top:10px;width:50px;height:30px;background-color:#ffb2ca;text-align:center;font-family: 'Roboto', sans-serif !important;font-size:25px;line-height:30px;color:#fff;}
 .best-list-wrap ul li a > div{padding:10px 20px 0;}
 .best-list-wrap ul li .name{overflow:hidden;max-height:48px;font-size:16px;line-height:24px;color:#595959;}
 .best-list-wrap ul li .price{padding-top:9px;}
@@ -71,6 +75,7 @@ h2.main-tit a{background:url(../images/icon/ico_arrow-right.svg) no-repeat right
 .best-list-wrap ul li .price .origin{display:inline-block;margin-right:7px;font-size:14px;color:#c8c8c8;text-decoration:line-through;vertical-align:middle;}
 .best-list-wrap ul li .price .origin span{}
 .best-list-wrap ul li .price .percent{display:inline-block;font-weight:bold;font-size:20px;color:#ffb2ca;vertical-align:middle;}
+.best-list-wrap ul li.first .badge{width:60px;height:40px;left:25px;top:20px;font-size:30px;line-height:40px;}
 .best-list-wrap ul li.first a > div{padding:30px 30px 0;}
 .best-list-wrap ul li.first .name{max-height:88px;font-size:30px;line-height:44px;}
 .best-list-wrap ul li.first .price{position:relative;margin-top:20px;padding-top:42px;}
