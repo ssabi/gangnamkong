@@ -25,7 +25,7 @@ $(document).ready(function() {
   var RelatedSwiper = new Swiper('.sub-bottom-swiper .swiper-container', {
     slidesPerView: 4,
     loop: true,
-    spaceBetween: 30,
+    spaceBetween: 20,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
