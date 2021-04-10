@@ -34,14 +34,27 @@ h2.main-tit a{background:url(../images/icon/ico_arrow-right.svg) no-repeat right
 .plp-wrap .plp-list li .plp-box .price .origin{font-size: 14px;color: #c8c8c8;font-weight: 400;text-decoration: line-through;padding: 0 8px;}
 .plp-wrap .plp-list li .plp-box .price .percent{font-size: 20px;color: #ffb2ca;}
 .plp-wrap .plp-list li.disabled{opacity: 0.2;}
-.new-product{margin:0;}
+.new-product{position:relative;margin:30px 0 0;}
 .new-product .swiper-container{overflow:visible;}
-.new-product .swiper-slide{width: 270px;margin-right:20px;}
+.new-product .swiper-slide{width: 270px;margin-right:20px;opacity:0.2;}
 .new-product .swiper-slide img{width:100%;height:336px;}
-.new-product .swiper-slide.swiper-slide-active{width: 368px;margin-right:62px;}
+.new-product .swiper-slide.swiper-slide-active{width: 368px;margin-right:62px;opacity:1;}
 .new-product .swiper-slide.swiper-slide-active img{height:458px;}
-.new-product .swiper-slide.swiper-slide-active + .swiper-slide{}
+.new-product .swiper-slide.swiper-slide-active + .swiper-slide,
+.new-product .swiper-slide.swiper-slide-active + .swiper-slide + .swiper-slide,
+.new-product .swiper-slide.swiper-slide-active + .swiper-slide + .swiper-slide + .swiper-slide{opacity:1;}
 .new-product .swiper-slide:last-child{margin-right:0;}
+.new-product .plp-box{padding:10px 0 0;}
+.new-product .plp-box .name{font-size:16px;line-height:25px;color:#595959;}
+.new-product .plp-box .price{padding:13px 0 0;}
+.new-product .plp-box .price .sale{display:inline-block;margin-right:7px;font-weight:bold;font-size:12px;color:#333;vertical-align:middle;}
+.new-product .plp-box .price .sale span{font-size:18px;}
+.new-product .plp-box .price .origin{display:inline-block;font-size:14px;color:#c8c8c8;text-decoration:line-through;vertical-align:middle;}
+.new-product .swiper-slide-active .plp-box{padding:20px 0 0;}
+.new-product .swiper-slide-active .plp-box .price{padding:11px 0 0;}
+.new-product .swiper-slide-active .plp-box .price .sale{font-size:20px;line-height:33px;}
+.new-product .swiper-slide-active .plp-box .price .sale span{font-size:28px;}
+.new-product .swiper-slide-active .plp-box .price .origin{font-size:20px;line-height:29px;}
 
 .best-list-wrap{margin:30px -5px 0;}
 .best-list-wrap ul{overflow:hidden;}
@@ -53,19 +66,23 @@ h2.main-tit a{background:url(../images/icon/ico_arrow-right.svg) no-repeat right
 .best-list-wrap ul li a > div{padding:10px 20px 0;}
 .best-list-wrap ul li .name{overflow:hidden;max-height:48px;font-size:16px;line-height:24px;color:#595959;}
 .best-list-wrap ul li .price{padding-top:9px;}
-.best-list-wrap ul li .price .origin{display:inline-block;margin-right:7px;font-weight:bold;font-size:12px;vertical-align:middle;}
-.best-list-wrap ul li .price .origin span{font-size:18px;}
-.best-list-wrap ul li .price .sale{display:inline-block;margin-right:7px;font-size:14px;color:#c8c8c8;text-decoration:line-through;vertical-align:middle;}
-.best-list-wrap ul li .price .sale span{}
+.best-list-wrap ul li .price .sale{display:inline-block;margin-right:7px;font-weight:bold;font-size:12px;vertical-align:middle;}
+.best-list-wrap ul li .price .sale span{font-size:18px;}
+.best-list-wrap ul li .price .origin{display:inline-block;margin-right:7px;font-size:14px;color:#c8c8c8;text-decoration:line-through;vertical-align:middle;}
+.best-list-wrap ul li .price .origin span{}
 .best-list-wrap ul li .price .percent{display:inline-block;font-weight:bold;font-size:20px;color:#ffb2ca;vertical-align:middle;}
 .best-list-wrap ul li.first a > div{padding:30px 30px 0;}
 .best-list-wrap ul li.first .name{max-height:88px;font-size:30px;line-height:44px;}
 .best-list-wrap ul li.first .price{position:relative;margin-top:20px;padding-top:42px;}
-.best-list-wrap ul li.first .price .origin{margin-right:6px;font-size:24px;line-height:49px;vertical-align:baseline;}
-.best-list-wrap ul li.first .price .origin span{font-size:42px;}
-.best-list-wrap ul li.first .price .sale{position:absolute;left:0;top:0;margin-right:0;font-weight:400;font-size:22px;line-height:33px;}
+.best-list-wrap ul li.first .price .sale{margin-right:6px;font-size:24px;line-height:49px;vertical-align:baseline;}
+.best-list-wrap ul li.first .price .sale span{font-size:42px;}
+.best-list-wrap ul li.first .price .origin{position:absolute;left:0;top:0;margin-right:0;font-weight:400;font-size:22px;line-height:33px;}
 .best-list-wrap ul li.first .price .percent{font-weight:bold;font-size:25px;line-height:29px;vertical-align:baseline;}
 
+.recipe-wrap{}
+.recipe-wrap:after{content:'';display:block;clear:both;}
+.recipe-wrap .left-side{width:388px;}
+.recipe-wrap .right-side{width:calc(100% - 388px);}
 .recipe{position:absolute;right:0;top:141px;width:63.125%;}
 .recipe .swiper-slide{width:500px;}
 .recipe .swiper-slide a{display:block;position:relative;}

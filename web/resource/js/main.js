@@ -1,14 +1,15 @@
-$( document ).ready(function() {
+$(document).ready(function() {
 	//Main Visual Swiper
 	var visualSwiper = new Swiper('.visual .swiper-container', {
 		loop: true,
 		autoplay: {
 			delay: 5000,
 			disableOnInteraction: false,
-		}
+		},
 	});
 	var newSwiper = new Swiper('.new-product .swiper-container', {
 		slidesPerView: 'auto',
+		//slidesPerView: 4,
 		//spaceBetween: 30,
 		navigation: {
 			nextEl: '.swiper-button-next',
@@ -32,13 +33,14 @@ $( document ).ready(function() {
 	var recipeSwiper = new Swiper('.recipe .swiper-container', {
 		slidesPerView: 'auto',
 		spaceBetween: 30,
+		loop: true,
 		preventClicks: true,
 		navigation: {
 			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
+			prevEl: '.swiper-button-prev'
 		},
 		pagination: {
-			el: '.swiper-pagination',
+			el: '.swiper-pagination'
 		}
 	});
 });
