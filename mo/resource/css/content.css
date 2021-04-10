@@ -1,7 +1,7 @@
 #container .inner{padding:0 20px;}
 
 /* Visual Swiper */
-.visual_swiper{}
+.visual_swiper{clear:both;}
 .visual_swiper .swiper-pagination-fraction{display:flex;left:20px;bottom:20px;width:80px;height:35px;border-radius:71px;background-color:rgba(0, 0, 0, 0.3);font-family:'Roboto', sans-serif;font-size:15px;line-height:18px;font-weight:normal;color:#fff;align-items:center;justify-content:center;}
 .visual_swiper .swiper-pagination-fraction .swiper-pagination-current{margin-right:5px;font-weight:bold}
 .visual_swiper .swiper-pagination-fraction .swiper-pagination-total{margin-left:5px;}
@@ -24,7 +24,7 @@
 
 /* 특가상품 */
 .special_list{display:flex;margin-top:20px;padding-bottom:20px;flex-wrap:wrap;}
-.special_list .item{flex:1;}
+.special_list .item{position:relative;flex:1;}
 .special_list .item:nth-child(2n-1){margin-right:11px;}
 .special_list .info{padding:8px 10px 0;height:119px;}
 .special_list .info .name{overflow:hidden;height:50px;font-size:15px;line-height:25px;color:#595959;}
@@ -34,6 +34,11 @@
 .special_list .info .price .origin{margin-right:5px;font-size:12px;line-height:18px;color:#c8c8c8;text-decoration:line-through;}
 .special_list .info .price .origin span{font-family:'Roboto', sans-serif;}
 .special_list .info .price .percent{font-weight:bold;font-size:14px;line-height:16px;color:#ffb2ca;}
+.special_list .cart{position:absolute;right:10px;bottom:129px;width:30px;height:30px;}
+.special_list .cart span{display:block;overflow:hidden;width:inherit;height:inherit;text-indent:-9999px;background:url(../images/icons/ico_round_cart.svg) no-repeat left top;background-size:100%;}
+.special_list .cart:active span,
+.special_list .cart:hover span,
+.special_list .cart:focus span{background:url(../images/icons/ico_round_cart_active.svg) no-repeat left top;background-size:100%;}
 
 /* 신상품 */
 .new_swiper{margin-top:20px;}
