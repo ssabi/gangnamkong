@@ -13,7 +13,7 @@ $(document).ready(function(){
   });
 
 	//New Product Swiper
-	var visualSwiper = new Swiper('.new_swiper .swiper-container', {
+	var newSwiper = new Swiper('.new_swiper .swiper-container', {
 		slidesPerView: 'auto',
   });
 });
