@@ -104,3 +104,14 @@
 .mypage .myinfo-wrap .left-menu .menu-box ul li:last-child{border: none;}
 .mypage .myinfo-wrap .left-menu .menu-box ul li.on{color: #ffb2ca;}
 .mypage .myinfo-wrap .right-box{margin-bottom: 130px;height: 880px;float: left;width: calc(100% - 280px);background-color: #ccc;  border-radius: 20px;}
+
+/*shopping*/
+.mypage .shopping-wrap h2.tit{position: relative;font-size: 30px;font-weight: 700;line-height: 1.5;margin-bottom: 20px;}
+.mypage .shopping-wrap h2.tit .btn{font-weight: 400;position: absolute;top: -5px;margin-left: 15px;}
+.mypage .shopping-wrap .order-box{margin-bottom: 30px; padding: 32px 50px;border-radius: 10px;border: solid 1px #e6e6e6;background-color: #ffffff;}
+.mypage .shopping-wrap .order-box table.order-info{width: 100%;border: 0;border-collapse: collapse;text-align: left;}
+.mypage .shopping-wrap .order-box table.order-info td,
+.mypage .shopping-wrap .order-box table.order-info th{padding: 18px 0;line-height: 1.56;color: #333333;border-bottom: 1px solid #e6e6e6;}
+.mypage .shopping-wrap .order-box table.order-info tr:last-child td{border: none;}
+.mypage .shopping-wrap .order-box table.order-info tr:last-child th{border: none;}
+.mypage .shopping-wrap .order-box table.order-info.pay td{text-align: right;}
