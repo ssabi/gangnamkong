@@ -92,7 +92,7 @@ h2.main-tit a{background:url(../images/icon/ico_arrow-right.svg) no-repeat right
 .recipe .swiper-slide{width:500px;}
 .recipe .swiper-slide a{display:block;position:relative;border-radius:20px;}
 .recipe .swiper-slide a:after{content:'';position:absolute;left:0;top:0;width:100%;height:100%;border-radius:20px;background:#40151f;opacity:0.3;}
-.recipe .swiper-slide.swiper-slide-active a{box-shadow:10px 10px 20px rgba(255, 178,202, 0.5)}
+.recipe .swiper-slide.swiper-slide-active a{/*box-shadow:10px 10px 20px rgba(255, 178,202, 0.5);*/box-shadow:5px 5px 20px 0 rgba(188, 43, 97, 0.2);}
 .recipe .swiper-slide.swiper-slide-active a:after{border:3px solid #ffb2ca;background:transparent;opacity:1;}
 
 .recipe-info{padding-top:66px;}

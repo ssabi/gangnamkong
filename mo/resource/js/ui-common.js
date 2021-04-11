@@ -16,4 +16,9 @@ $(document).ready(function(){
 	var newSwiper = new Swiper('.new_swiper .swiper-container', {
 		slidesPerView: 'auto',
   });
+
+	//Recipe Product Swiper
+	var recipeSwiper = new Swiper('.recipe_swiper .swiper-container', {
+		slidesPerView: 'auto',
+  });
 });

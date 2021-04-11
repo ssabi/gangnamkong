@@ -17,14 +17,21 @@
 /* Title */
 .tit{display:block;padding-top:30px;font-weight:bold;font-size:22px;color:#333;}
 .tit a{display:inline-block;position:relative;padding-right:25px;line-height:33px;color:inherit;vertical-align:middle;}
-.tit a:after{content:'';display:block;position:absolute;right:0;top:50%;margin-top:-8px;width:20px;height:20px;background:url(../images/icons/ico_right_arrow.svg) no-repeat left top;background-size:100%;}
+.tit a:after{content:'';display:block;position:absolute;right:0;top:50%;margin-top:-9px;width:20px;height:20px;background:url(../images/icons/ico_right_arrow.svg) no-repeat left top;background-size:100%;}
 .desc{margin-top:5px;font-size:14px;line-height:20px;color:#999;}
 .bg_skyblue .tit,
 .bg_pink .tit{padding-top:47px;}
 
+/* 장바구니 */
+.btn_cart{position:absolute;right:10px;bottom:129px;width:30px;height:30px;}
+.btn_cart span{display:block;overflow:hidden;width:inherit;height:inherit;text-indent:-9999px;background:url(../images/icons/ico_round_cart.svg) no-repeat left top;background-size:100%;}
+.btn_cart:active span,
+.btn_cart:hover span,
+.btn_cart:focus span{background:url(../images/icons/ico_round_cart_active.svg) no-repeat left top;background-size:100%;}
+
 /* 특가상품 */
-.special_list{display:flex;margin-top:20px;padding-bottom:20px;flex-wrap:wrap;}
-.special_list .item{position:relative;flex:1;}
+.special_list{display:flex;margin-top:20px;padding-bottom:20px;flex-wrap:wrap;justify-content:space-between;}
+.special_list .item{position:relative;flex:1 1 45%;}
 .special_list .item:nth-child(2n-1){margin-right:11px;}
 .special_list .info{padding:8px 10px 0;height:119px;}
 .special_list .info .name{overflow:hidden;height:50px;font-size:15px;line-height:25px;color:#595959;}
@@ -34,13 +41,60 @@
 .special_list .info .price .origin{margin-right:5px;font-size:12px;line-height:18px;color:#c8c8c8;text-decoration:line-through;}
 .special_list .info .price .origin span{font-family:'Roboto', sans-serif;}
 .special_list .info .price .percent{font-weight:bold;font-size:14px;line-height:16px;color:#ffb2ca;}
-.special_list .cart{position:absolute;right:10px;bottom:129px;width:30px;height:30px;}
-.special_list .cart span{display:block;overflow:hidden;width:inherit;height:inherit;text-indent:-9999px;background:url(../images/icons/ico_round_cart.svg) no-repeat left top;background-size:100%;}
-.special_list .cart:active span,
-.special_list .cart:hover span,
-.special_list .cart:focus span{background:url(../images/icons/ico_round_cart_active.svg) no-repeat left top;background-size:100%;}
+.special_list .btn_cart{width:30px;height:30px;}
 
 /* 신상품 */
-.new_swiper{margin-top:20px;}
+.new_swiper{margin-top:20px;padding-bottom:30px;}
 .new_swiper .swiper-container{padding:0 20px 0 5px;}
 .new_swiper .swiper-slide{width:285px;margin-left:15px;}
+.new_swiper > span{display:block;position:relative;}
+.new_swiper .badge{display:flex;position:absolute;left:20px;top:20px;width:60px;height:30px;background-color:#ffb2ca;text-align:center;align-items:center;justify-content:center;font-size:16px;color:#fff;}
+.new_swiper .info{padding:11px 0 0;height:119px;}
+.new_swiper .info .name{overflow:hidden;height:50px;font-size:18px;line-height:25px;color:#595959;}
+.new_swiper .info .price{display:flex;padding-top:9px;}
+.new_swiper .info .price .sale{margin-right:10px;font-weight:bold;font-size:14px;line-height:26px;color:#333;}
+.new_swiper .info .price .sale span{font-family:'Roboto', sans-serif;font-size:20px;}
+.new_swiper .info .price .origin{margin-right:5px;font-size:18px;line-height:22px;color:#c8c8c8;text-decoration:line-through;}
+.new_swiper .info .price .origin span{font-family:'Roboto', sans-serif;}
+.new_swiper .btn_cart{width:50px;height:50px;}
+
+/* 베스트 */
+.best_list{display:flex;margin-top:20px;padding-bottom:20px;flex-wrap:wrap;justify-content:space-between;}
+.best_list .item{position:relative;flex:1 1 45%;}
+.best_list .item.big{flex:0 2 100%;margin-right:0;}
+.best_list .item:nth-child(2n){margin-right:11px;}
+.best_list > span{display:block;position:relative;}
+.best_list .badge{display:flex;position:absolute;left:10px;top:11px;width:40px;height:18px;background-color:#ffb2ca;text-align:center;align-items:center;justify-content:center;font-family:'Roboto', sans-serif;font-style:italic;font-weight:500;font-size:14px;color:#fff;}
+.best_list .info{padding:8px 10px 0;height:119px;}
+.best_list .info .name{overflow:hidden;height:50px;font-size:15px;line-height:25px;color:#595959;}
+.best_list .info .price{display:flex;padding-top:12px;}
+.best_list .info .price .sale{margin-right:10px;font-weight:bold;font-size:10px;line-height:19px;color:#333;}
+.best_list .info .price .sale span{font-family:'Roboto', sans-serif;font-size:16px;}
+.best_list .info .price .origin{margin-right:5px;font-size:12px;line-height:18px;color:#c8c8c8;text-decoration:line-through;}
+.best_list .info .price .origin span{font-family:'Roboto', sans-serif;}
+.best_list .info .price .percent{font-weight:bold;font-size:14px;line-height:16px;color:#ffb2ca;}
+.best_list .btn_cart{width:30px;height:30px;}
+.best_list .item.big .badge{left:20px;top:20px;width:50px;height:30px;font-size:20px;}
+.best_list .item.big .info{padding-top:11px;height:100px;}
+.best_list .item.big .info .name{height:auto;max-height:50px;font-size:18px;}
+.best_list .item.big .info .price{padding-top:9px;}
+.best_list .item.big .info .price .sale{margin-right:10px;font-size:14px;line-height:26px;}
+.best_list .item.big .info .price .sale span{font-size:20px;}
+.best_list .item.big .info .price .origin{margin-right:5px;font-size:18px;line-height:22px;}
+.best_list .item.big .info .price .percent{font-size:17px;line-height:24px;}
+.best_list .item.big .btn_cart{bottom:120px;right:20px;width:70px;height:70px;}
+
+/* 레시피 */
+.recipe_swiper{margin-top:20px;padding-bottom:20px;}
+.recipe_swiper .swiper-container{padding:0 20px 0 5px;}
+.recipe_swiper .swiper-slide{width:290px;margin-left:15px;}
+.recipe_swiper .swiper-slide a > span{display:block;position:relative;}
+.recipe_swiper .swiper-slide a > span:before{content:'';display:block;position:absolute;left:0;top:0;width:100%;height:100%;border-radius:20px;background-color:#40151f;opacity:0.3;}
+.recipe_swiper .swiper-slide.swiper-slide-active a > span:before{border:2px solid #ffb2ca;;background-color:transparent;opacity:1;box-shadow:5px 5px 20px 0 rgba(188, 43, 97, 0.2);}
+.recipe_swiper .info{padding:21px 0 0;height:107px;}
+.recipe_swiper .info .name{overflow:hidden;max-height:50px;font-weight:500;font-size:18px;line-height:25px;color:#595959;}
+.recipe_swiper .info .price{display:flex;align-items:center;padding-top:7px;}
+.recipe_swiper .info .price .sale{margin-right:11px;font-weight:bold;font-size:14px;line-height:29px;color:#ffb2ca;}
+.recipe_swiper .info .price .sale span{font-family:'Roboto', sans-serif;font-size:25px;}
+.recipe_swiper .info .price .origin{margin-right:5px;font-size:14px;line-height:20px;color:#595959;text-decoration:line-through;}
+.recipe_swiper .info .price .origin span{font-family:'Roboto', sans-serif;}
