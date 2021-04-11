@@ -26,4 +26,12 @@ $(document).ready(function(){
 	var recipeSwiper = new Swiper('.related_swiper .swiper-container', {
 		slidesPerView: 'auto',
   });
+
+	//Content Tab
+	$(".scTab li").on({
+		click : function(e){
+			e.preventDefault();
+			$(this).addClass("on").siblings("li").removeClass("on");
+		}
+	});
 });
