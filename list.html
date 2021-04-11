@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0">
+    <title>시공간</title>
+
+    <style>
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;vertical-align:baseline}*,:before,:after{-webkit-box-sizing:border-box;box-sizing:border-box}em{font-style:normal}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}nav,ol,ul{list-style:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}table{border-collapse:collapse;border-spacing:0;width:100%}audio,canvas,video{display:inline-block;*display:inline;zoom:1;max-width:100%}audio:not([controls]){display:none;height:0}[hidden]{display:none}a{text-decoration:none}img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}figure{margin:0}.blind{position:absolute;clip:rect(0, 0, 0, 0);width:1px;height:1px;margin:-1px;overflow:hidden;color:transparent}
+
+        .table{width:100%;table-layout:fixed;font-size:12px;}
+        thead th{padding:5px;font-weight:bold;background-color:#ccc;height:30px;text-align:center;border:1px solid #ebebeb;}
+        tbody td{padding:5px;border:1px solid #ebebeb;height:30px;vertical-align:middle;word-break:break-all;word-wrap:break-word;}
+        tbody td.no{text-align:center;}
+        a{display:block;color:#ec455a;}
+        a:hover, a:active, a:visited {color:#ec455a;}
+
+        .tab{max-width:500px;margin-bottom:10px;transition:all ease 0.3s;}
+        .tab ul{display:flex;}
+        .tab ul li{flex:1;}
+        .tab ul li a{display:block;height:30px;line-height:30px;text-align:center;color:#222;background-color:#eee;}
+        .tab ul li.on a{background-color:#ec455a;font-weight:bold;color:#fff;}
+        .tabcon{padding-bottom:10px;}
+
+        .responsive{
+            overflow:hidden;
+            overflow-x:auto;
+            width:100%;
+        }
+        .responsive table{
+            width:auto;
+            max-width:100%;
+        }
+        .responsive table td{white-space:nowrap;}
+    </style>
+
+    <script src="../resource/js/libs/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".tabcon").each(function(){
+                $(this).find(".no").each(function(idx){
+                    $(this).html(idx + 1);
+                });
+            });
+        });
+        /*
+        window.onload = function(){
+            var tabCon = document.querySelectorAll(".tabcon");
+            for(var i = 0; i < tabCon.length; i++){
+                var noList = tabCon[i].querySelectorAll(".no");
+                for(var j = 0; j < noList.length; j++){
+                    noList[j].innerHTML = j + 1;
+                }
+            }
+
+            var list = document.querySelector(".tab").querySelectorAll("li");
+            for(var i = 0; i < list.length; i++){
+                (function(idx){
+                    list[idx].addEventListener("click", function(){
+                        for(var j = 0; j < list.length; j++){
+                            list[j].classList.remove("on");
+                            tabCon[j].classList.remove("on");
+                        }
+                        this.classList.add("on");
+                        tabCon[idx].classList.add("on");
+                    });
+                })(i);
+            };
+        }
+        */
+    </script>
+</head>
+<body>
+    <div class="tabcon">
+        <div class="table-wrap">
+            <table class="table">
+                <colgroup>
+                    <col style="width:35px;">
+                    <col style="width:35%;">
+                    <col>
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>NO.</th>
+                        <th>Section</th>
+                        <th>URL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="no"></td>
+                        <td>PC-메인</td>
+                        <td><a href="./web/html/index.html" target="_blank">index.html</a></td>
+                    </tr>
+                    <tr>
+                        <td class="no"></td>
+                        <td>PC-상품상세</td>
+                        <td><a href="./web/html/sub-detailpage.html" target="_blank">sub-detailpage.html</a></td>
+                    </tr>
+                    <tr>
+                        <td class="no"></td>
+                        <td>PC-장바구니</td>
+                        <td><a href="./web/html/shopping-basket.html" target="_blank">shopping-basket.html</a></td>
+                    </tr>
+                    <tr>
+                        <td class="no"></td>
+                        <td>PC-마이페이지</td>
+                        <td><a href="./web/html/mypage.html" target="_blank">mypage.html</a></td>
+                    </tr>
+                    <tr>
+                        <td class="no"></td>
+                        <td>MO-메인</td>
+                        <td><a href="./mo/html/index.html" target="_blank">index.html</a></td>
+                    </tr>
+                    <tr>
+                        <td class="no"></td>
+                        <td>MO-상품상세</td>
+                        <td><a href="./mo/html/details.html" target="_blank">details.html</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
