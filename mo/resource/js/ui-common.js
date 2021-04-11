@@ -28,10 +28,12 @@ $(document).ready(function(){
   });
 
 	//Content Tab
+	/*
 	$(".scTab li").on({
 		click : function(e){
 			e.preventDefault();
 			$(this).addClass("on").siblings("li").removeClass("on");
 		}
 	});
+	*/
 });
