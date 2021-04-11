@@ -21,4 +21,9 @@ $(document).ready(function(){
 	var recipeSwiper = new Swiper('.recipe_swiper .swiper-container', {
 		slidesPerView: 'auto',
   });
+
+	//Related Product Swiper
+	var recipeSwiper = new Swiper('.related_swiper .swiper-container', {
+		slidesPerView: 'auto',
+  });
 });

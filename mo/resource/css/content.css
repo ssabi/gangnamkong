@@ -13,6 +13,7 @@
 /* BG */
 .bg_skyblue{background-color:#f5f9fc;}
 .bg_pink{background-color:#fff5f8;}
+.bg_white{background-color:#fff;}
 
 /* Title */
 .tit{display:block;padding-top:30px;font-weight:bold;font-size:22px;color:#333;}
@@ -21,6 +22,7 @@
 .desc{margin-top:5px;font-size:14px;line-height:20px;color:#999;}
 .bg_skyblue .tit,
 .bg_pink .tit{padding-top:47px;}
+.bg_skyblue.related .tit{padding-top:35px;}
 
 /* 장바구니 */
 .btn_cart{position:absolute;right:10px;bottom:129px;width:30px;height:30px;}
@@ -98,3 +100,16 @@
 .recipe_swiper .info .price .sale span{font-family:'Roboto', sans-serif;font-size:25px;}
 .recipe_swiper .info .price .origin{margin-right:5px;font-size:14px;line-height:20px;color:#595959;text-decoration:line-through;}
 .recipe_swiper .info .price .origin span{font-family:'Roboto', sans-serif;}
+
+/* 관련상품 */
+.related_swiper{margin-top:16px;/*padding-bottom:20px;*/}
+.related_swiper .swiper-container{padding:0 20px 0 10px;}
+.related_swiper .swiper-slide{width:182px;margin-left:10px;}
+.related_swiper .info{padding:8px 10px 0;height:120px;}
+.related_swiper .info .name{overflow:hidden;height:50px;font-size:15px;line-height:25px;color:#595959;}
+.related_swiper .info .price{display:flex;padding-top:8px;}
+.related_swiper .info .price .sale{margin-right:11px;font-weight:bold;font-size:16px;line-height:24px;color:#333;}
+.related_swiper .info .price .sale span{font-family:'Roboto', sans-serif;font-size:16px;}
+.related_swiper .info .price .origin{margin-right:5px;font-size:12px;line-height:26px;color:#c8c8c8;text-decoration:line-through;}
+.related_swiper .info .price .origin span{font-family:'Roboto', sans-serif;}
+.related_swiper .info .price .percent{font-weight:bold;font-size:14px;line-height:24px;color:#ffb2ca;}
