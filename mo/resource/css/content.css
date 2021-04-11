@@ -1,4 +1,5 @@
 #container .inner{padding:0 20px;}
+.contents{padding-bottom:110px;}
 
 /* Visual Swiper */
 .visual_swiper{clear:both;}
@@ -113,3 +114,18 @@
 .related_swiper .info .price .origin{margin-right:5px;font-size:12px;line-height:26px;color:#c8c8c8;text-decoration:line-through;}
 .related_swiper .info .price .origin span{font-family:'Roboto', sans-serif;}
 .related_swiper .info .price .percent{font-weight:bold;font-size:14px;line-height:24px;color:#ffb2ca;}
+
+/* 상품상세 */
+.prd_details{padding:20px 20px 25px;}
+
+/* BreadCrumb */
+.breadcrumb{display:flex;padding:6px 20px 0 15px;height:87px;align-items:center;}
+.breadcrumb .btn_prev{display:inline-block;padding:5px;vertical-align:middle;}
+.breadcrumb .btn_prev span{display:block;overflow:hidden;width:20px;height:20px;background:url(../images/icons/ico_left_arrow.svg) no-repeat left top;text-indent:-9999px;}
+.breadcrumb ul{display:flex;}
+.breadcrumb ul li{position:relative;margin-left:5px;padding-left:16px;font-size:14px;line-height:20px;letter-spacing:-0.35px;color:#595959;}
+.breadcrumb ul li a{display:block;line-height:20px;color:inherit;}
+.breadcrumb ul li:before{content:'';display:block;position:absolute;left:0;top:50%;margin-top:-5px;width:10px;height:10px;background:url(../images/icons/ico_right_arrow02.svg) no-repeat left top;}
+.breadcrumb ul li:first-child{margin-left:0;padding-left:0;}
+.breadcrumb ul li:first-child:before{display:none;}
+.breadcrumb ul li:last-child{font-weight:500;}
