@@ -104,5 +104,5 @@
 
 /* Bottom Fixed Button */
 .bottom_fixed{position:fixed;left:0;bottom:0;width:100%;padding:30px 20px;z-index:100;}
-.bottom_fixed > div{}
+.bottom_fixed > div{display:flex;}
 .bottom_fixed button{width:100%;}
