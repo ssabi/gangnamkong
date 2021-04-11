@@ -133,8 +133,7 @@
 
 /* Details Info */
 .breadcrumb + .details_info{margin-top:20px;}
-.details_info{}
-.details_info .img{}
+.details_info .img{display:block;}
 .details_info .info_area{position:relative;padding:20px;}
 .details_info .name{padding-right:60px;font-weight:500;font-size:18px;line-height:25px;color:#333;}
 .details_info .desp{font-size:14px;line-height:20px;color:#999;}
