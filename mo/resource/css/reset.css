@@ -23,6 +23,8 @@ textarea{width:100%;border:0;overflow-y:auto;resize:none}
 body{font-family:'Noto Sans KR', sans-serif;}
 .roboto{font-family:'Roboto', sans-serif !important;}
 
+input,select,textarea,button{font-family:'Noto Sans KR', sans-serif;}
+
 /**
 * Swiper 6.5.4
 * Most modern mobile touch slider and framework with hardware accelerated transitions
