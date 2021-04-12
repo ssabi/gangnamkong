@@ -84,7 +84,7 @@
 .sub-bottom-swiper .swiper-btn-wrap{position: absolute;top: 50%;width: 100%;}
 
 /*mypage*/
-.mypage{background-color: #f9f9f9;}
+.mypage{min-width:1280px;background-color: #f9f9f9;}
 .mypage .member-info-wrap{padding: 50px 0 100px;}
 .mypage .member-info-wrap .info-box{border-radius: 10px;border: solid 1px #e6e6e6;background-color: #ffffff;padding: 50px 0 50px 60px;}
 .mypage .member-info-wrap .info-box ul{position: relative;display: inline-block;}

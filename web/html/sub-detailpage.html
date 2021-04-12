@@ -14,7 +14,6 @@
 	<script src="../resource/js/libs/jquery-3.6.0.min.js"></script>
 	<script src="../resource/js/libs/swiperjs.min.js"></script>
   <script src="../resource/js/ui-common.js"></script>
-	<script src="../resource/js/content.js"></script>
 </head>
 
 <body>
@@ -26,21 +25,11 @@
 				</div>
 				<div class="login">
 					<ul>
-						<li>
-							<a href="#none">회원가입</a>
-						</li>
-						<li>
-							<a href="#none">로그인</a>
-						</li>
-						<li>
-							<a href="#none">고객센터</a>
-						</li>
-						<li>
-							<a href="#none">강남콩 소개</a>
-						</li>
-						<li>
-							<a href="#none">구매후기</a>
-						</li>
+						<li><a href="#none">회원가입</a></li>
+						<li><a href="#none">로그인</a></li>
+						<li><a href="#none">고객센터</a></li>
+						<li><a href="#none">강남콩 소개</a></li>
+						<li><a href="#none">구매후기</a></li>
 					</ul>
 				</div>
 			</div>
@@ -50,25 +39,88 @@
 				<ul class="gnb">
 					<li class="category">
 						<a href="#none">카테고리</a>
+						<div class="depth2">
+							<ul>
+								<li>
+									<a href="#" class="ico-cate01">생수ㆍ탄산수</a>
+									<div class="depth3">
+										<ul>
+											<li><a href="#">전체</a></li>
+											<li><a href="#">수입 생수</a></li>
+											<li><a href="#">국산 생수</a></li>
+											<li><a href="#">탄산수</a></li>
+										</ul>
+									</div>
+									<!-- //Depth3 -->
+								</li>
+								<li>
+									<a href="#" class="ico-cate02">음료ㆍ우유</a>
+									<div class="depth3">
+										<ul>
+											<li><a href="#">전체</a></li>
+											<li><a href="#">음료</a></li>
+											<li><a href="#">우유</a></li>
+										</ul>
+									</div>
+									<!-- //Depth3 -->
+								</li>
+								<li><a href="#" class="ico-cate03">치즈ㆍ버터</a></li>
+								<li><a href="#" class="ico-cate04">간편식ㆍ가공육</a></li>
+								<li><a href="#" class="ico-cate05">면ㆍ소스ㆍ조미료</a></li>
+								<li><a href="#" class="ico-cate06">오일ㆍ식초ㆍ절임</a></li>
+								<li><a href="#" class="ico-cate07">간식ㆍ커피ㆍ차</a></li>
+								<li><a href="#" class="ico-cate08">주방ㆍ생활용품</a></li>
+								<li><a href="#" class="ico-cate09">선물세트ㆍ테마관</a></li>
+								<li><a href="#" class="ico-cate10">특가상품</a></li>
+								<li><a href="#" class="ico-cate11">신상품</a></li>
+								<li><a href="#" class="ico-cate12">베스트</a></li>
+							</ul>
+						</div>
+						<!-- //Depth2 -->
 					</li>
-					<li>
-						<a href="#none">특가상품</a>
-					</li>
-					<li>
-						<a href="#none">신상품</a>
-					</li>
-					<li>
-						<a href="#none">베스트</a>
-					</li>
-					<li>
-						<a href="#none">레시피상품</a>
-					</li>
+					<li><a href="#none">특가상품</a></li>
+					<li><a href="#none">신상품</a></li>
+					<li><a href="#none">베스트</a></li>
+					<li><a href="#none">레시피상품</a></li>
 				</ul>
 				<div class="search-wrap">
-					<input type="text" class="search-input">
-					<span class="search-ico">
-						<a href="#none"><img src="../resource/images/icon/ico_search.png" alt="검색"></a>
-					</span>
+					<div>
+						<input type="text" class="search-input">
+						<span class="search-ico">
+							<a href="#none"><img src="../resource/images/icon/ico_search.png" alt="검색"></a>
+						</span>
+
+						<div class="search-ext">
+							<div>
+								<strong>최근 검색어</strong>
+								<div class="recent-word">
+									<!-- 데이터가 없는 경우 -->
+									<!--
+									<div class="nodata">
+										<p>최근 검색어가 없습니다.</p>
+									</div>
+									-->
+									<!-- //데이터가 없는 경우 -->
+									<p>어반<button type="button"><span>삭제</span></button></p>
+									<p>에비앙<button type="button"><span>삭제</span></button></p>
+									<p>산펠레그리노<button type="button"><span>삭제</span></button></p>
+								</div>
+
+								<strong>추천 검색어</strong>
+								<div class="recom-word">
+									<a href="#">하리토스</a>
+									<a href="#">에비앙</a>
+									<a href="#">산펠레그리노</a>
+									<a href="#">피지</a>
+									<a href="#">체리</a>
+									<a href="#">모구모구</a>
+									<a href="#">가나다라</a>
+									<a href="#">골드메달스파클링</a>
+									<a href="#">바이칼</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="cart">
 					<a href="#none">

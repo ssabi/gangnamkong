@@ -100,4 +100,54 @@ $(document).ready(function() {
 			prevEl: '.swiper-button-prev',
 		},
 	});
+
+	//마이페이지 메뉴
+	$('.left-menu li').click(function(){
+		$(this).closest(".left-menu").find("li").removeClass("on");
+		$(this).addClass('on');
+	});
+
+	//장바구니 아코디언
+	$('.accordion > a.accor-down').click(function(e) {
+		e.preventDefault();
+
+		$('.accordion > a.accor-down').toggleClass('on');
+
+		var $this = $('.accordion > a.accor-down');
+		if ($this.hasClass('on')) {
+			$this.parent().next().removeClass('show');
+			$this.parent().next().slideUp(300);
+		} else {
+			$this.parent().next().toggleClass('show');
+			$this.parent().next().slideToggle(300);
+		}
+	});
+
+	//모달 - 수량 선택
+	$(".btn-modal").on({
+		click : function(e){
+			e.preventDefault();
+
+			var href = $(this).attr("href");
+			console.log(href);
+			var $target = $(href);
+			//var $target = $(".modal");
+			
+
+			$target.fadeIn(200);
+
+			$(".modal .close").on({
+				click : function(){
+					$(this).closest(".modal").fadeOut(200);
+				}
+			});
+
+			$(document).on('mousedown touchstart focusin', function(e){
+				//console.log($(e.target));
+				if($(e.target).closest(".modal-dialog").length === 0) {
+					$(".modal").fadeOut(200);
+				}
+			});
+		}
+	});
 });
