@@ -37,4 +37,20 @@ $(document).ready(function() {
     $(this).closest(".left-menu").find("li").removeClass("on");
     $(this).addClass('on');
   });
+
+  //장바구니 아코디언
+  $('.accordion > a.accor-down').click(function(e) {
+    e.preventDefault();
+
+    $('.accordion > a.accor-down').toggleClass('on');
+
+    var $this = $('.accordion > a.accor-down');
+    if ($this.hasClass('on')) {
+        $this.parent().next().removeClass('show');
+        $this.parent().next().slideUp(300);
+    } else {
+        $this.parent().next().toggleClass('show');
+        $this.parent().next().slideToggle(300);
+    }
+  });
 });

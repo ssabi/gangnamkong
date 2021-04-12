@@ -130,11 +130,12 @@
 /* color */
 .bg-skyblue{overflow:hidden;min-width:1280px;background-color: #f5f9fc;}
 .color-pink{color: #ffb2ca;}
+.color-lightgray{color: #999999;}
 
 /* btn */
-.btn-sm{width: auto; height: 30px;font-size: 16px;line-height: 30px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;padding: 3px 20px;}
-.btn-md{width: 155px; height: 60px;font-size: 18px;line-height: 60px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;}
-.btn-large{width: 320px; height: 60px;font-size: 18px;line-height: 60px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;}
+.btn-sm{width: auto; height: 30px;font-size: 16px;line-height: 30px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;padding: 3px 20px;display: inline-block;line-height: 23px;letter-spacing: -1px;}
+.btn-md{width: 155px; height: 60px;font-size: 18px;line-height: 60px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;display: inline-block;}
+.btn-large{width: 320px; height: 60px;font-size: 18px;line-height: 60px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;display: inline-block;}
 .btn-linepink{border-color: #ffb2ca;color: #ffb2ca;}
 .btn-linepink:active, .btn-linepink:hover, .btn-linepink:focus{background-color: #fff1f6;color: #ffb2ca;}
 .btn-gray{border-color: #e6e6e6;color: #333;}
