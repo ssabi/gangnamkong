@@ -63,7 +63,7 @@
 .ft_btm ul li a.ico_facebook{background:url(../images/icons/ico_facebook.png) no-repeat left top;background-size:100%;}
 .ft_btm ul li a.ico_blog{background:url(../images/icons/ico_blog.png) no-repeat left top;background-size:100%;}
 
-.btm_tab_menu{position:fixed;left:0;bottom:0;padding:0 9px 0 10px;width:100%;height:51px;border-top:1px solid #e6e6e6;background-color:#fff;}
+.btm_tab_menu{position:fixed;left:0;bottom:0;padding:0 9px 0 10px;width:100%;height:51px;border-top:1px solid #e6e6e6;background-color:#fff;z-index:100;}
 .btm_tab_menu ul{display:flex;justify-content:space-between;}
 .btm_tab_menu ul li{flex:1;text-align:center;}
 .btm_tab_menu ul li + li{margin-left:12px;}
