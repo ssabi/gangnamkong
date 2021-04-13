@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+    <g>
+        <g fill="none" stroke="#ffb2ca" transform="translate(-681.998 -1649.998) translate(681.998 1649.998)">
+            <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+            <circle cx="7.5" cy="7.5" r="7"/>
+        </g>
+        <text fill="#ffb2ca" font-family="Roboto-Medium, Roboto" font-size="11px" font-weight="500" letter-spacing="-0.025em" transform="translate(-681.998 -1649.998) translate(687.997 1661.998)">
+            <tspan x="0" y="0">!</tspan>
+        </text>
+    </g>
+</svg>

@@ -36,4 +36,15 @@ $(document).ready(function(){
 		}
 	});
 	*/
+
+	//Selectbox
+	$("select").on({
+		change : function(){
+			var selVal = $(this).val();
+			$(this).removeClass("default");
+			if(selVal == "default"){
+				$(this).addClass("default");
+			}
+		}
+	})
 });

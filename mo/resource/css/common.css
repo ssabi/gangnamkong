@@ -103,8 +103,14 @@
 .btn.bg_grey{background-color:#e6e6e6;color:#595959;}
 .btn.size_s{height:40px;font-size:14px;}
 .btn.size_l{height:50px;font-size:15px;}
+.btn.size_xs{height:25px;font-weight:500;font-size:15px;}
 
 /* Bottom Fixed Button */
 .bottom_fixed{position:fixed;left:0;bottom:0;width:100%;padding:30px 20px;z-index:100;}
 .bottom_fixed > div{display:flex;}
 .bottom_fixed button{width:100%;}
+
+/* Align */
+.tal_l{text-align:left !important}
+.tal_r{text-align:right !important}
+.tal_c{text-align:center !important}
