@@ -88,11 +88,11 @@
 
 /* Button */
 .btn{display:flex;border-radius:5px;text-align:center;align-items:center;justify-content:center;font-weight:500;}
-.btn.btn_line_pink{border:1px solid #ffb2ca;font-weight:500;font-size:15px;line-height:22px;letter-spacing:-0.38px;color:#ffb2ca;}
+.btn.btn_line_pink{background-color: #fff;border:1px solid #ffb2ca;font-weight:500;font-size:15px;line-height:22px;letter-spacing:-0.38px;color:#ffb2ca;}
 .btn.btn_line_pink:active,
 .btn.btn_line_pink:hover,
 .btn.btn_line_pink:focus{border-color:#ffb2ca;background-color:#fff1f6;}
-.btn.btn_line_grey{border:1px solid #e6e6e6;font-weight:500;font-size:15px;line-height:22px;letter-spacing:-0.38px;color:#333;}
+.btn.btn_line_grey{background-color: #fff;border:1px solid #e6e6e6;font-weight:500;font-size:15px;line-height:22px;letter-spacing:-0.38px;color:#333;}
 .btn.btn_line_grey:active,
 .btn.btn_line_grey:hover,
 .btn.btn_line_grey:focus{border-color:#e6e6e6;background-color:#f5f9fc;}

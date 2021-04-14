@@ -297,3 +297,23 @@
 .item .item_con .btn_del{position:absolute;right:-11px;top:-6px;padding:10px;}
 .item .item_con .btn_del span{display:block;overflow:hidden;position:relative;width:15px;height:15px;text-indent:-9999px;background:url(../images/icons/ico_delete02.svg) no-repeat left top;background-size:100%;}
 .item .item_con .item_btm{}
+
+/* mypage */
+.section .color-pink{color: #ffb2ca;}
+.section .sec_tit .mypage-memeber{font-weight: 400;position: relative;}
+.section .sec_tit .mypage-memeber .color-pink{font-weight: 500;}
+.section .sec_tit .mypage-memeber .btn{position: absolute;right: 0;top: 0;min-width: 85px;}
+.section .sec_tit .point{margin-top: 10px;font-size: 15px;color: #595959;line-height: 1.47;letter-spacing: -0.38px;}
+.section .sec_tit .point span{margin-left: 10px;}
+.round_box.member{padding: 0 0 20px;}
+.round_box .member-view{display: inline-block;width: 100%;}
+.round_box .member-view li{width: 25%;float: left;margin-top: 20px;border-right: 1px solid #e6e6e6;text-align: center;}
+.round_box .member-view li:last-child{border: none;}
+.round_box .member-view li .tit{font-size: 12px;padding: 0 0 11px 0;font-weight: normal;letter-spacing: -0.3px;line-height: 1.5;}
+.round_box .member-view li .number{font-size: 14px;}
+.round_box .member-view li .number .color-pink{font-size: 22px;font-weight: bold;}
+.round_box.menu-box .menu li{position: relative;color: #333333;font-size: 15px;line-height: 1.47;letter-spacing: -0.38px;padding: 14px 0;}
+.round_box.menu-box .menu li a::after{content:'';display:inline-block;background:url(../images/icons/ico_right_arrow04.svg) no-repeat left top;width: 15px;height: 15px;position: absolute;right: 0;top: calc(50% - 7px);}
+.login-btn-wrap{display: flex;justify-content: space-between;margin: 20px 0 30px;}
+.login-btn-wrap a.btn{flex-basis: 50%;}
+.login-btn-wrap a.btn + a.btn{margin-left: 4px;}
