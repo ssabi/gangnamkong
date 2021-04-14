@@ -116,8 +116,9 @@
 .tal_c{text-align:center !important}
 
 /*category-menu*/
-.category-menu-wrap{position: fixed;top: 0;left: 0;width: 100%;background-color: #f9f9f9;height: 100%;}
-.category-menu-wrap .inner{height: 100%;overflow-y: auto;position: relative;padding: 70px 20px 30px;}
+.category-menu-wrap{display:none;position: fixed;top: 0;left: 0;width: 100%;background-color: #f9f9f9;height: 100%;height:calc(100% - 51px);}
+.category-menu-wrap.active{display:block;}
+.category-menu-wrap .inner{height: 100%;overflow-y: auto;position: relative;padding: 70px 20px 31px;}
 .category-menu-wrap .close-wrap{position: absolute;top: 0;width: 100%;height: 60px;left: 0;text-align: right;}
 .category-menu-wrap .close-wrap > a{margin: 20px;display: block;}
 .category-menu-wrap .round_box.member{padding: 0 0 20px;}
@@ -127,14 +128,13 @@
 .category-menu-wrap .round_box .member-view li .tit{font-size: 12px;padding: 0 0 11px 0;font-weight: normal;letter-spacing: -0.3px;line-height: 1.5;}
 .category-menu-wrap .round_box .member-view li .number{font-size: 14px;}
 .category-menu-wrap .round_box .member-view li .number .color-pink{font-size: 22px;font-weight: bold;}
-.category-menu-wrap .inner .round_box.category{padding: 0;}
+.category-menu-wrap .inner .round_box.category{overflow:hidden;padding: 0;}
 .category-menu-wrap .inner .category .menu > li{position: relative;padding:0 20px;color: #333333;font-size: 15px;line-height: 50px;}
 .category-menu-wrap .inner .category .menu > li a{display: block;}
 .category-menu-wrap .inner .category .menu > li > a::after{content:'';display:inline-block;background:url(../images/icons/ico_down_arrow_gray.svg) no-repeat left top;width: 15px;height: 15px;position: absolute;right: 20px;top: 15px;}
-.category-menu-wrap .inner .category .menu > li:first-child.on{background-color: #ffb2ca;color: #fff;border-radius: 10px 10px 0 0;}
 .category-menu-wrap .inner .category .menu > li.on{background-color: #ffb2ca;color: #fff;}
 .category-menu-wrap .inner .category .menu > li.on > a::after{background:url(../images/icons/ico_up_arrow_white.svg) no-repeat left top;top: 18px;}
-.category-menu-wrap .inner .category .menu > li .sub-menu{background: #fff;margin: 0 -20px;padding: 10px 18px;font-size: 14px;color: #828282;}
+.category-menu-wrap .inner .category .menu > li .sub-menu{display:none;background: #fff;margin: 0 -20px;padding: 10px 18px;font-size: 14px;color: #828282;}
 .category-menu-wrap .inner .category .menu > li .sub-menu ul li{line-height: 35px;}
 .category-menu-wrap .inner .category .menu > li .sub-menu ul li a{position: relative;    padding-left: 10px;}
 .category-menu-wrap .inner .category .menu > li .sub-menu ul li a::before{content: '';display: inline-block;width: 2px;height: 2px;background-color: #828282;vertical-align: middle;position: absolute;left: 3px;top: 50%;}
