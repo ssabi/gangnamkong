@@ -313,6 +313,7 @@
 .round_box .member-view li .number{font-size: 14px;}
 .round_box .member-view li .number .color-pink{font-size: 22px;font-weight: bold;}
 .round_box.menu-box .menu li{position: relative;color: #333333;font-size: 15px;line-height: 1.47;letter-spacing: -0.38px;padding: 14px 0;}
+.round_box.menu-box .menu li a{display: block;}
 .round_box.menu-box .menu li a::after{content:'';display:inline-block;background:url(../images/icons/ico_right_arrow04.svg) no-repeat left top;width: 15px;height: 15px;position: absolute;right: 0;top: calc(50% - 7px);}
 .login-btn-wrap{display: flex;justify-content: space-between;margin: 20px 0 30px;}
 .login-btn-wrap a.btn{flex-basis: 50%;}
