@@ -284,19 +284,19 @@
 .accord_wrap .accord_tit .btn_accord span{display:block;overflow:hidden;width:20px;height:20px;background:url(../images/icons/ico_up_arrow.svg) no-repeat left top;background-size:100%;text-indent:-9999px;}
 .accord_wrap .accord_con{}
 
-.item{position:relative;padding:20px 0 20px 30px;border-top:1px solid #e6e6e6;}
-.item .agree_wrap{position:absolute;left:0;top:20px;}
-.item .item_con{position:relative;padding-left:75px;padding-right:25px;}
-.item .item_con > span{position:absolute;left:0;top:0;}
-.item .item_con > span img{width:65px;height:82px;}
-.item .item_con dl{display:block;width:100%;}
-.item .item_con dl dt{overflow:hidden;width:100%;text-overflow:ellipsis;white-space:nowrap;font-weight:500;line-height:22px;color:#333;}
-.item .item_con dl dd{}
-.item .item_con dl dd.desc{height:33px;font-size:10px;line-height:15px;color:#999;}
-.item .item_con dl dd a{font-weight:500;font-size:12px;color:#ffb2ca;text-decoration:underline;}
-.item .item_con .btn_del{position:absolute;right:-11px;top:-6px;padding:10px;}
-.item .item_con .btn_del span{display:block;overflow:hidden;position:relative;width:15px;height:15px;text-indent:-9999px;background:url(../images/icons/ico_delete02.svg) no-repeat left top;background-size:100%;}
-.item .item_con .item_btm{}
+.round_box .item{position:relative;padding:20px 0 20px 30px;border-top:1px solid #e6e6e6;}
+.round_box .item .agree_wrap{position:absolute;left:0;top:20px;}
+.round_box .item .item_con{position:relative;padding-left:75px;padding-right:25px;}
+.round_box .item .item_con > span{position:absolute;left:0;top:0;}
+.round_box .item .item_con > span img{width:65px;height:82px;}
+.round_box .item .item_con dl{display:block;width:100%;}
+.round_box .item .item_con dl dt{overflow:hidden;width:100%;text-overflow:ellipsis;white-space:nowrap;font-weight:500;line-height:22px;color:#333;}
+.round_box .item .item_con dl dd{}
+.round_box .item .item_con dl dd.desc{height:33px;font-size:10px;line-height:15px;color:#999;}
+.round_box .item .item_con dl dd a{font-weight:500;font-size:12px;color:#ffb2ca;text-decoration:underline;}
+.round_box .item .item_con .btn_del{position:absolute;right:-11px;top:-6px;padding:10px;}
+.round_box .item .item_con .btn_del span{display:block;overflow:hidden;position:relative;width:15px;height:15px;text-indent:-9999px;background:url(../images/icons/ico_delete02.svg) no-repeat left top;background-size:100%;}
+.round_box .item .item_con .item_btm{}
 
 /* mypage */
 .color-pink{color: #ffb2ca;}
