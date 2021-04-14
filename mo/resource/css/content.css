@@ -299,12 +299,12 @@
 .item .item_con .item_btm{}
 
 /* mypage */
-.section .color-pink{color: #ffb2ca;}
-.section .sec_tit .mypage-memeber{font-weight: 400;position: relative;}
-.section .sec_tit .mypage-memeber .color-pink{font-weight: 500;}
-.section .sec_tit .mypage-memeber .btn{position: absolute;right: 0;top: 0;min-width: 85px;}
-.section .sec_tit .point{margin-top: 10px;font-size: 15px;color: #595959;line-height: 1.47;letter-spacing: -0.38px;}
-.section .sec_tit .point span{margin-left: 10px;}
+.color-pink{color: #ffb2ca;}
+.sec_tit .mypage-memeber{font-weight: 400;position: relative;}
+.sec_tit .mypage-memeber .color-pink{font-weight: 500;}
+.sec_tit .mypage-memeber .btn{position: absolute;right: 0;top: 0;min-width: 85px;}
+.sec_tit .point{margin-top: 10px;font-size: 15px;color: #595959;line-height: 1.47;letter-spacing: -0.38px;}
+.sec_tit .point span{margin-left: 10px;}
 .round_box.member{padding: 0 0 20px;}
 .round_box .member-view{display: inline-block;width: 100%;}
 .round_box .member-view li{width: 25%;float: left;margin-top: 20px;border-right: 1px solid #e6e6e6;text-align: center;}
