@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang=ko>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>강남콩 :: 프리미엄 생수, 탄산수, 식자재 홈 딜리버리</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../resource/css/reset.css" />
+    <link rel="stylesheet" href="../resource/css/common.css" />
+    <link rel="stylesheet" href="../resource/css/content.css" />
+    <script src="../resource/js/libs/jquery-3.6.0.min.js"></script>
+    <script src="../resource/js/libs/swiperjs.min.js"></script>
+    <script src="../resource/js/ui-common.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div id="header">
+        <div class="inner">
+            <h1 class="logo"><a href="#"><img src="../resource/images/common/logo.png" alt="GANGNAMKONG"></a></h1>
+
+            <div class="cart">
+                <a href="#"><span>장바구니</span></a>
+                <span>2</span>
+            </div>
+
+            <div class="tab-wrap">
+                <ul>
+                    <li><a href="#"><span>특가상품</span></a></li>
+                    <li><a href="#"><span>신상품</span></a></li>
+                    <li><a href="#"><span>베스트</span></a></li>
+                    <li><a href="#"><span>레시피상품</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //Header -->
+    <div id="container">
+        <p><button type="button" class="btn size_l bg_pink btn_layer" data-layer="#layer01"><span>&nbsp;&nbsp;&nbsp;&nbsp;장바구니 팝업01&nbsp;&nbsp;&nbsp;&nbsp;</span></button></p>
+        <br>
+        <p><button type="button" class="btn size_l bg_pink btn_layer" data-layer="#layer02"><span>&nbsp;&nbsp;&nbsp;&nbsp;장바구니 팝업02&nbsp;&nbsp;&nbsp;&nbsp;</span></button></p>
+    </div>
+    <!-- //Container -->
+    <div class="btm_tab_menu">
+        <ul>
+            <li><a href="#" class="ico_btm_category">카테고리</a></li>
+            <li><a href="#" class="ico_btm_search">검색</a></li>
+            <li><a href="#" class="ico_btm_home">홈</a></li>
+            <li><a href="#" class="ico_btm_mypage">마이</a></li>
+        </ul>
+    </div>
+    <!-- //Bottom Tab Menu -->
+</div>
+<!-- //Wrapper -->
+
+<div class="layer_pop" id="layer01">
+    <div class="layer_inner">
+        <div class="layer_box">
+            <div class="layer_tit">
+                <strong>에비앙 생수 <span>330ml x 24ea</span></strong>
+                <button type="button" class="layer_close"><span>닫기</span></button>
+            </div>
+            <div class="layer_con">
+                <div class="layer_con_inner">
+                    <dl>
+                        <dt>옵션 선택</dt>
+                        <dd>
+                            <div class="radio_box">
+                                <div class="radio_wrap">
+                                    <input type="radio" name="option" id="radio01" checked="checked">
+                                    <label for="radio01">박스 상품<span>1병당 787원</span></label>
+                                </div>
+                                <div class="radio_wrap">
+                                    <input type="radio" name="option" id="radio02">
+                                    <label for="radio02">낱개 상품<span>1병당 900원</span></label>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="inline">
+                        <dt>수량</dt>
+                        <dd>
+                            <div class="btn-quantity">
+                                <button type="button" class="btn-minus">
+                                    <span class="blind">수량 빼기</span>
+                                </button>
+                                <input type="text" class="input-num roboto" value="1">
+                                <button type="button" class="btn-plus">
+                                    <span class="blind">수량 추가</span>
+                                </button>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="inline">
+                        <dt>합계</dt>
+                        <dd>
+                            <p class="total"><span>18,900</span>원</p>
+                        </dd>
+                    </dl>
+                    <div class="btn_wrap">
+                        <button type="button" class="btn size_l btn_line_pink"><span>장바구니</span></button>
+                        <button type="button" class="btn size_l bg_pink"><span>바로구매</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="layer_pop" id="layer02">
+    <div class="layer_inner">
+        <div class="layer_box">
+            <div class="layer_tit">
+                <strong>에비앙 생수 <span>330ml x 24ea</span></strong>
+                <button type="button" class="layer_close"><span>닫기</span></button>
+            </div>
+            <div class="layer_con">
+                <div class="layer_con_inner">
+                    <dl>
+                        <dt>옵션 선택</dt>
+                        <dd>
+                            <div class="select_wrap">
+                                <select>
+                                    <option value="default">옵션 선택1(필수)</option>
+                                </select>
+                            </div>
+                            <div class="select_wrap disabled">
+                                <select disabled>
+                                    <option value="default">옵션 선택2(필수)</option>
+                                </select>
+                            </div>
+                            <div class="select_wrap disabled">
+                                <select disabled>
+                                    <option value="default">옵션 선택3(필수)</option>
+                                </select>
+                            </div>
+                            <div class="select_wrap disabled">
+                                <select disabled>
+                                    <option value="default">옵션 선택4(필수)</option>
+                                </select>
+                            </div>
+                            <div class="select_wrap disabled">
+                                <select disabled>
+                                    <option value="default">옵션 선택5(필수)</option>
+                                </select>
+                            </div>
+                            <div class="select_wrap disabled">
+                                <select disabled>
+                                    <option value="default">옵션 선택6(필수)</option>
+                                </select>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="inline">
+                        <dt>수량</dt>
+                        <dd>
+                            <div class="btn-quantity">
+                                <button type="button" class="btn-minus">
+                                    <span class="blind">수량 빼기</span>
+                                </button>
+                                <input type="text" class="input-num roboto" value="1">
+                                <button type="button" class="btn-plus">
+                                    <span class="blind">수량 추가</span>
+                                </button>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="inline">
+                        <dt>합계</dt>
+                        <dd>
+                            <p class="total"><span>18,900</span>원</p>
+                        </dd>
+                    </dl>
+                    <div class="btn_wrap">
+                        <button type="button" class="btn size_l btn_line_pink"><span>장바구니</span></button>
+                        <button type="button" class="btn size_l bg_pink"><span>바로구매</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

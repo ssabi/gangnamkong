@@ -131,4 +131,29 @@ $(document).ready(function(){
 			$target.slideToggle(200);
 		}
 	});
+
+	$(".btn_layer").on({
+		click : function(){
+			var layer = $(this).data("layer");
+			//console.log(layer);
+			$(layer).addClass("show");
+
+			$(".layer_close").off("click").on({
+				click : function(){
+					$(this).closest(".layer_pop").fadeOut(200, function(){
+						$(this).removeClass("show").removeAttr("style");
+					});
+				}
+			});
+
+			$(document).on('mousedown touchstart focusin', function(e){
+				//console.log($(e.target));
+				if($(e.target).closest(".layer_box").length === 0) {
+					$(".layer_pop").fadeOut(200, function(){
+						$(this).removeClass("show").removeAttr("style");
+					});
+				}
+			});
+		}
+	});
 });
