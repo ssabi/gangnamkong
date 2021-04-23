@@ -1,23 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
     <defs>
         <clipPath id="clip-path">
-            <path id="사각형_13" d="M0 0H20V20H0z" class="cls-1" transform="translate(-5509 55)"/>
-        </clipPath>
-        <clipPath id="clip-path-2">
-            <path id="사각형_12" d="M0 0H20V20H0z" class="cls-1" transform="translate(-5463 50)"/>
+            <path id="사각형_13" fill="#fff" stroke="#707070" d="M0 0H25V25H0z" transform="translate(.41)"/>
         </clipPath>
         <style>
-            .cls-1{fill:#fff;stroke:#707070}
+            .cls-2{clip-path:url(#clip-path)}
         </style>
     </defs>
-    <g id="그룹_772" transform="translate(-207 -1878)">
-        <g id="카트" transform="translate(-1253 1827)">
-            <g id="마스크_그룹_5" clip-path="url(#clip-path)" transform="translate(6969 -4)">
-                <g id="마스크_그룹_4" clip-path="url(#clip-path-2)" transform="translate(-46 5)">
-                    <g id="cart" transform="translate(-5463 15.998)">
-                        <path id="패스_1" fill="#666" d="M19.612 38.7a1.4 1.4 0 0 0-1.09-.52H3.336l-.136-.971A1.407 1.407 0 0 0 1.813 36H.623a.623.623 0 0 0 0 1.245h1.19a.156.156 0 0 1 .154.134l1.681 12.047a1.407 1.407 0 0 0 1.387 1.207h.675a1.868 1.868 0 1 0 3.522 0h3.327a1.868 1.868 0 1 0 3.522 0h1.352a.623.623 0 1 0 0-1.245H5.036a.156.156 0 0 1-.154-.134l-.155-1.111h12.261a1.409 1.409 0 0 0 1.37-1.107l1.534-7.16a1.4 1.4 0 0 0-.28-1.174zM8.094 51.256a.623.623 0 1 1-.623-.623.623.623 0 0 1 .623.623zm6.849 0a.623.623 0 1 1-.623-.623.623.623 0 0 1 .623.623zm3.732-11.641l-1.534 7.16a.157.157 0 0 1-.152.123H4.553L3.51 39.426h15.012a.156.156 0 0 1 .152.188z"/>
-                    </g>
-                </g>
+    <g id="마스크_그룹_5" class="cls-2" transform="translate(-.41)">
+        <g id="마스크_그룹_4" class="cls-2">
+            <g id="cart" transform="translate(0 2.541)">
+                <path id="패스_1" fill="#666" d="M24.917 39.432a1.772 1.772 0 0 0-1.384-.661H4.239l-.172-1.235A1.787 1.787 0 0 0 2.3 36H.791a.791.791 0 0 0 0 1.582H2.3a.2.2 0 0 1 .2.17l2.135 15.3A1.787 1.787 0 0 0 6.4 54.591h.858a2.373 2.373 0 1 0 4.474 0h4.227a2.373 2.373 0 1 0 4.474 0h1.718a.791.791 0 1 0 0-1.582H6.4a.2.2 0 0 1-.2-.17L6 51.427h15.583a1.79 1.79 0 0 0 1.741-1.407l1.949-9.1a1.772 1.772 0 0 0-.356-1.492zm-14.634 15.95a.791.791 0 1 1-.791-.791.792.792 0 0 1 .791.791zm8.7 0a.791.791 0 1 1-.791-.791.792.792 0 0 1 .793.791zm4.741-14.79l-1.949 9.1a.2.2 0 0 1-.194.157H5.784L4.46 40.353h19.073a.2.2 0 0 1 .194.239z" transform="translate(0 -36.002)"/>
             </g>
         </g>
     </g>
