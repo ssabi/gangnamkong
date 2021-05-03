@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_1546" fill="#fff" stroke="#707070" d="M0 0H20V20H0z" transform="translate(11731 -14310)"/>
+        </clipPath>
+        <style>
+            .cls-3{fill:#666;stroke:#666;stroke-width:.4px}
+        </style>
+    </defs>
+    <g id="마스크_그룹_299" clip-path="url(#clip-path)" transform="translate(-11731 14310)">
+        <g id="file" transform="translate(11671.49 -14306.698)">
+            <g id="그룹_1327" transform="translate(64)">
+                <g id="그룹_1326">
+                    <path id="패스_525" d="M75.226 3.849h-3.207a.321.321 0 0 1-.321-.321V.321A.321.321 0 0 0 71.377 0h-6.415A.963.963 0 0 0 64 .962v13.472a.963.963 0 0 0 .962.962h9.622a.963.963 0 0 0 .962-.962V4.17a.321.321 0 0 0-.32-.321zm-.321 10.585a.321.321 0 0 1-.321.321h-9.622a.321.321 0 0 1-.321-.321V.962a.321.321 0 0 1 .321-.321h6.094v2.887a.963.963 0 0 0 .962.962h2.887z" class="cls-3" transform="translate(-64)"/>
+                </g>
+            </g>
+            <g id="그룹_1329" transform="translate(71.056)">
+                <g id="그룹_1328">
+                    <path id="패스_526" d="M303.057 3.959L299.208.11a.321.321 0 1 0-.454.454l3.846 3.848a.321.321 0 0 0 .454-.454z" class="cls-3" transform="translate(-298.661 -.016)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

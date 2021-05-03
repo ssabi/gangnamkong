@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_1392" fill="#fff" stroke="#707070" d="M0 0H20V20H0z" transform="translate(31 239)"/>
+        </clipPath>
+        <style>
+            .cls-8{fill:none}.cls-7{stroke:none}
+        </style>
+    </defs>
+    <g id="마스크_그룹_268" stroke="#666" clip-path="url(#clip-path)" transform="translate(-31 -239)">
+        <g id="그룹_1211" stroke-width="1.2px" transform="translate(2 2)">
+            <g id="사각형_1390" fill="none" transform="translate(35 239)">
+                <rect width="8" height="10" class="cls-7" rx="4"/>
+                <rect width="6.8" height="8.8" x=".6" y=".6" class="cls-8" rx="3.4"/>
+            </g>
+            <g id="사각형_1391" fill="#fff" transform="translate(32 245)">
+                <rect width="14" height="11" class="cls-7" rx="2"/>
+                <rect width="12.8" height="9.8" x=".6" y=".6" class="cls-8" rx="1.4"/>
+            </g>
+        </g>
+        <g id="그룹_1212" transform="translate(-6 1)">
+            <g id="타원_94" fill="#fff" transform="translate(46 250)">
+                <circle cx="1" cy="1" r="1" class="cls-7"/>
+                <circle cx="1" cy="1" r=".5" class="cls-8"/>
+            </g>
+            <path id="패스_484" fill="none" stroke-linecap="round" d="M-14276-5012.651v2" transform="translate(14323 5264)"/>
+        </g>
+    </g>
+</svg>

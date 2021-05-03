@@ -150,4 +150,14 @@ $(document).ready(function() {
 			});
 		}
 	});
+
+	$(".file-wrap").each(function(){
+		$(this).find('input[type="file"').on({
+			change : function(){
+				var $target = $(this).closest(".file-wrap").find('input[type="text"]');
+				var $value = $(this).val();
+				$target.val($value);
+			}
+		});
+	});
 });
