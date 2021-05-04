@@ -75,11 +75,12 @@ $(document).ready(function() {
 		$(this).toggleClass( 'on' );
 	});
 	//tab
-	$(".tab_content").hide(); //Hide all content
-	$("ul.tab-nav li:first").addClass("on").show(); //Activate first tab
-	$(".tab_content:first").show(); //Show first tab content
+	//$(".tab_content").hide(); //Hide all content
+	//$("ul.tab-nav li:first").addClass("on").show(); //Activate first tab
+	//$(".tab_content:first").show(); //Show first tab content
 
 	//On Click Event
+	/*
 	$("ul.tab-nav li").click(function () {
 		$("ul.tab-nav li").removeClass("on"); //Remove any "on" class
 		$(this).addClass("on"); //Add "on" class to selected tab
@@ -89,6 +90,7 @@ $(document).ready(function() {
 		$(activeTab).fadeIn(); //Fade in the active ID content
 		return false;
 	});
+	*/
 
 	//관련상품 스와이퍼
 	var RelatedSwiper = new Swiper('.sub-bottom-swiper .swiper-container', {
