@@ -365,7 +365,7 @@
 .round-box .tbl-wrap table tbody td.prd-item > div .btn-sm span{margin:0;color:#333;line-height:28px;}
 
 .round-box .tbl-wrap.type02{margin:0 0 -1px;}
-.round-box .tbl-wrap.type02 table{}
+.round-box .tbl-wrap.type02 table{width:100%;}
 .round-box .tbl-wrap.type02 table thead th{background-color:#f9f9f9;}
 .round-box .tbl-wrap.type02 table tbody td{height:90px;text-align:center;font-size:16px;color:#595959;}
 .round-box .tbl-wrap.type02 table tbody td span{font-family: 'Roboto', sans-serif;font-weight:500;font-size:28px;color:#333;}
@@ -373,10 +373,9 @@
 .round-box .cart-rst .tbl-total-sum{width:100%;height:100%;}
 .round-box .cart-rst .tbl-total-sum tbody td{padding:0 49px 0 0;height:100%;font-weight:500;font-size:16px;color:#333;line-height:35px;text-align:right;}
 .round-box .cart-rst .tbl-total-sum tbody td:first-child{padding:0 0 0 49px;text-align:left;}
-.round-box .cart-rst .tbl-total-sum tbody td .total{}
+.round-box .cart-rst .tbl-total-sum tbody td .total{clear:both;}
 .round-box .cart-rst .tbl-total-sum tbody td .total p{display:inline-block;font-weight:400;vertical-align:middle;}
 .round-box .cart-rst .tbl-total-sum tbody td .total p span{margin:0 2px 0 5px;font-family: 'Roboto', sans-serif;font-weight:500;font-size:20px;}
-.round-box .cart-rst .tbl-total-sum tbody td .total p.sum{}
 .round-box .cart-rst .tbl-total-sum tbody td .total p.sum span{font-size:28px;color:#ffb2ca;}
 .round-box .cart-rst .tbl-total-sum tbody td .total .ico-plus{display:inline-block;margin:0 14px;width:30px;height:30px;background:url(../images/icon/ico_plus_circle.svg) no-repeat left top;vertical-align:middle;}
 .round-box .cart-rst .tbl-total-sum tbody td .total .ico-sum{display:inline-block;margin:0 14px;width:30px;height:30px;background:url(../images/icon/ico_sum_circle.svg) no-repeat left top;vertical-align:middle;}
