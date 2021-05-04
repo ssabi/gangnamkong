@@ -1,22 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
-    <defs>
-        <clipPath id="clip-path">
-            <path id="사각형_1046" fill="#fff" stroke="#707070" d="M0 0H7V11H0z" transform="translate(849 928)"/>
-        </clipPath>
-        <style>
-            .cls-4{fill:#888}
-        </style>
-    </defs>
-    <g id="그룹_1059" transform="translate(-747 -1019)">
-        <g id="사각형_1031" fill="#fff" stroke="#e6e6e6">
-            <path stroke="none" d="M0 0H34V34H0z" transform="translate(747 1019)"/>
-            <path fill="none" d="M0.5 0.5H33.5V33.5H0.5z" transform="translate(747 1019)"/>
-        </g>
-        <g id="마스크_그룹_234" clip-path="url(#clip-path)" transform="translate(-88 103)">
-            <g id="그룹_1028" transform="rotate(-45 784.192 727.155)">
-                <rect id="사각형_1039" width="8" height="2" class="cls-4" rx="1" transform="translate(684 919)"/>
-                <rect id="사각형_1040" width="8" height="2" class="cls-4" rx="1" transform="rotate(90 -116.5 802.5)"/>
-            </g>
-        </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        stroke: #e6e6e6;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #888;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_1052" data-name="사각형 1052" class="cls-1" width="7" height="11" transform="translate(849 928)"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1058" data-name="그룹 1058" transform="translate(-710 -1019)">
+    <g id="사각형_1045" data-name="사각형 1045" class="cls-2" transform="translate(710 1019)">
+      <rect class="cls-5" width="34" height="34"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="33" height="33"/>
     </g>
+    <g id="그룹_1032" data-name="그룹 1032" transform="translate(-92 102)">
+      <g id="마스크_그룹_236" data-name="마스크 그룹 236" class="cls-3" transform="translate(-37 1)">
+        <g id="그룹_1030" data-name="그룹 1030" transform="translate(-284.492 767.486) rotate(-45)">
+          <rect id="사각형_1050" data-name="사각형 1050" class="cls-4" width="8" height="2" rx="1" transform="translate(684 919)"/>
+          <rect id="사각형_1051" data-name="사각형 1051" class="cls-4" width="8" height="2" rx="1" transform="translate(686 919) rotate(90)"/>
+        </g>
+      </g>
+      <g id="마스크_그룹_237" data-name="마스크 그룹 237" class="cls-3" transform="translate(-31 1)">
+        <g id="그룹_1031" data-name="그룹 1031" transform="translate(-284.492 767.486) rotate(-45)">
+          <rect id="사각형_1053" data-name="사각형 1053" class="cls-4" width="8" height="2" rx="1" transform="translate(684 919)"/>
+          <rect id="사각형_1054" data-name="사각형 1054" class="cls-4" width="8" height="2" rx="1" transform="translate(686 919) rotate(90)"/>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

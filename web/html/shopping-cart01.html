@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang=ko>
+<head>
+	<meta charset="UTF-8">
+	<title>강남콩 :: 프리미엄 생수, 탄산수, 식자재 홈 딜리버리</title>
+	<!--font-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<!--css-->
+	<link rel="stylesheet" href="../resource/css/reset.css" />
+	<link rel="stylesheet" href="../resource/css/common.css" />
+	<link rel="stylesheet" href="../resource/css/content.css" />
+	<!--js-->
+	<script src="../resource/js/libs/jquery-3.6.0.min.js"></script>
+	<script src="../resource/js/libs/swiperjs.min.js"></script>
+	<script src="../resource/js/ui-common.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<div class="top-wrap">
+			<div class="inner">
+				<div class="logo">
+					<a href="index.html" title="메인"><img src="../resource/images/common/logo.png" alt="logo"></a>
+				</div>
+				<div class="login">
+					<ul>
+						<li><a href="#none">회원가입</a></li>
+						<li><a href="#none">로그인</a></li>
+						<li><a href="#none">고객센터</a></li>
+						<li><a href="#none">강남콩 소개</a></li>
+						<li><a href="#none">구매후기</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="gnb-wrap">
+			<div class="inner">
+				<ul class="gnb">
+					<li class="category">
+						<a href="#none">카테고리</a>
+						<div class="depth2">
+							<ul>
+								<li>
+									<a href="#" class="ico-cate01">생수ㆍ탄산수</a>
+									<div class="depth3">
+										<ul>
+											<li><a href="#">전체</a></li>
+											<li><a href="#">수입 생수</a></li>
+											<li><a href="#">국산 생수</a></li>
+											<li><a href="#">탄산수</a></li>
+										</ul>
+									</div>
+									<!-- //Depth3 -->
+								</li>
+								<li>
+									<a href="#" class="ico-cate02">음료ㆍ우유</a>
+									<div class="depth3">
+										<ul>
+											<li><a href="#">전체</a></li>
+											<li><a href="#">음료</a></li>
+											<li><a href="#">우유</a></li>
+										</ul>
+									</div>
+									<!-- //Depth3 -->
+								</li>
+								<li><a href="#" class="ico-cate03">치즈ㆍ버터</a></li>
+								<li><a href="#" class="ico-cate04">간편식ㆍ가공육</a></li>
+								<li><a href="#" class="ico-cate05">면ㆍ소스ㆍ조미료</a></li>
+								<li><a href="#" class="ico-cate06">오일ㆍ식초ㆍ절임</a></li>
+								<li><a href="#" class="ico-cate07">간식ㆍ커피ㆍ차</a></li>
+								<li><a href="#" class="ico-cate08">주방ㆍ생활용품</a></li>
+								<li><a href="#" class="ico-cate09">선물세트ㆍ테마관</a></li>
+								<li><a href="#" class="ico-cate10">특가상품</a></li>
+								<li><a href="#" class="ico-cate11">신상품</a></li>
+								<li><a href="#" class="ico-cate12">베스트</a></li>
+							</ul>
+						</div>
+						<!-- //Depth2 -->
+					</li>
+					<li><a href="#none">특가상품</a></li>
+					<li><a href="#none">신상품</a></li>
+					<li><a href="#none">베스트</a></li>
+					<li><a href="#none">레시피상품</a></li>
+				</ul>
+				<div class="search-wrap">
+					<div>
+						<input type="text" class="search-input">
+						<span class="search-ico">
+							<a href="#none"><img src="../resource/images/icon/ico_search.png" alt="검색"></a>
+						</span>
+
+						<div class="search-ext">
+							<div>
+								<strong>최근 검색어</strong>
+								<div class="recent-word">
+									<!-- 데이터가 없는 경우 -->
+									<!--
+									<div class="nodata">
+										<p>최근 검색어가 없습니다.</p>
+									</div>
+									-->
+									<!-- //데이터가 없는 경우 -->
+									<p>어반<button type="button"><span>삭제</span></button></p>
+									<p>에비앙<button type="button"><span>삭제</span></button></p>
+									<p>산펠레그리노<button type="button"><span>삭제</span></button></p>
+								</div>
+
+								<strong>추천 검색어</strong>
+								<div class="recom-word">
+									<a href="#">하리토스</a>
+									<a href="#">에비앙</a>
+									<a href="#">산펠레그리노</a>
+									<a href="#">피지</a>
+									<a href="#">체리</a>
+									<a href="#">모구모구</a>
+									<a href="#">가나다라</a>
+									<a href="#">골드메달스파클링</a>
+									<a href="#">바이칼</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cart">
+					<a href="#none">
+						<img src="../resource/images/icon/ico_cart.svg" alt="장바구니">
+						<span class="badge roboto">2</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Header -->
+    <div class="sub-container">
+        <div class="cart-wrap">
+            <h2 class="tit">장바구니</h2>
+
+            <div class="tab-wrap02">
+                <ul>
+                    <li class="on"><a href="#">국내배송상품 <span>(5)</span></a></li>
+                    <li><a href="#">해외배송상품 <span>(0)</span></a></li>
+                </ul>
+            </div>
+            <p class="txt-guide">장바구니에 담긴 상품은 2일 동안 보관됩니다.</p>
+
+            <div class="round-box">
+                <div class="tbl-wrap">
+                    <table>
+                        <colgroup>
+                            <col style="width:40px;">
+                            <col>
+                            <col style="width:100px;">
+                            <col style="width:140px;">
+                            <col style="width:84px;">
+                            <col style="width:99px;">
+                            <col style="width:84px;">
+                            <col style="width:100px;">
+                            <col style="width:133px;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    <span class="check-box">
+                                        <input type="checkbox" id="allcheck01">
+                                        <label for="allcheck01"><span class="ico"></span></label>
+                                    </span>
+                                </th>
+                                <th scope="col">상품정보</th>
+                                <th scope="col">판매가</th>
+                                <th scope="col">수량</th>
+                                <th scope="col">적립금</th>
+                                <th scope="col">배송구분</th>
+                                <th scope="col">배송비</th>
+                                <th scope="col">합계</th>
+                                <th scope="col">선택</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="check-box">
+                                        <input type="checkbox" id="check01">
+                                        <label for="check01"><span class="ico"></span></label>
+                                    </span>
+                                </td>
+                                <td class="prd-item">
+                                    <span class="img"><img src="../resource/images/content/cart_item01.png" alt=""></span>
+                                    <div>
+                                        <p>페라리니 모르타델라 위드 피스타치오 120gx1ea</p>
+                                    </div>
+                                </td>
+                                <td><p class="price"><span>6,000</span>원</p></td>
+                                <td>
+                                    <div class="option-change">
+                                        <div class="btn-quantity">
+                                            <button type="button" class="btn-minus">
+                                                <span class="blind">수량 빼기</span>
+                                            </button>
+                                            <input type="text" class="input-num roboto" value="1">
+                                            <button type="button" class="btn-plus">
+                                                <span class="blind">수량 추가</span>
+                                            </button>
+                                        </div>
+                                        <div class="btn-area">
+                                            <a href="#none" class="btn-sm btn-pink"><span>변경</span></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="saved-money saved01"><span>무</span>50원</p>
+                                    <p class="saved-money saved02"><span>카</span>50원</p>
+                                    <p class="saved-money saved03"><span>실</span>50원</p>
+                                    <p class="saved-money saved04"><span>휴</span>50원</p>
+                                    <p class="saved-money saved05"><span>예</span>50원</p>
+                                    <p class="saved-money saved06"><span>페</span>50원</p>
+                                    <p class="saved-money saved07"><span>오</span>50원</p>
+                                </td>
+                                <td>기본배송</td>
+                                <td>무료</td>
+                                <td><p class="price"><span>6,000</span>원</p></td>
+                                <td>
+                                    <div class="option-change">
+                                        <div class="btn-area">
+                                            <a href="#none" class="btn-sm btn-pink"><span>주문하기</span></a>
+                                            <a href="#none" class="btn-sm btn-linegray"><span>관심상품</span></a>
+                                            <a href="#none" class="btn-sm btn-linegray"><span>삭제</span></a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="check-box">
+                                        <input type="checkbox" id="check02">
+                                        <label for="check02"><span class="ico"></span></label>
+                                    </span>
+                                </td>
+                                <td class="prd-item">
+                                    <span class="img"><img src="../resource/images/content/cart_item02.png" alt=""></span>
+                                    <div>
+                                        <p>엘사보르 나쵸칩 3종 페라리니 모르타델라 위드피스타치오 120gx1ea</p>
+                                        <span>옵션 : 01.솔티드 나쵸칩 225gx1ea</span>
+                                        <a href="#" class="btn-sm btn-linegray"><span>옵션변경</span></a>
+                                    </div>
+                                </td>
+                                <td><p class="price"><span>2,400</span>원</p></td>
+                                <td>
+                                    <div class="option-change">
+                                        <div class="btn-quantity">
+                                            <button type="button" class="btn-minus">
+                                                <span class="blind">수량 빼기</span>
+                                            </button>
+                                            <input type="text" class="input-num roboto" value="1">
+                                            <button type="button" class="btn-plus">
+                                                <span class="blind">수량 추가</span>
+                                            </button>
+                                        </div>
+                                        <div class="btn-area">
+                                            <a href="#none" class="btn-sm btn-pink"><span>변경</span></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="saved-money saved01"><span>무</span>50원</p>
+                                    <p class="saved-money saved02"><span>카</span>50원</p>
+                                    <p class="saved-money saved03"><span>실</span>50원</p>
+                                    <p class="saved-money saved04"><span>휴</span>50원</p>
+                                    <p class="saved-money saved05"><span>예</span>50원</p>
+                                    <p class="saved-money saved06"><span>페</span>50원</p>
+                                    <p class="saved-money saved07"><span>오</span>50원</p>
+                                </td>
+                                <td>기본배송</td>
+                                <td>무료</td>
+                                <td><p class="price"><span>2,400</span>원</p></td>
+                                <td>
+                                    <div class="option-change">
+                                        <div class="btn-area">
+                                            <a href="#none" class="btn-sm btn-pink"><span>주문하기</span></a>
+                                            <a href="#none" class="btn-sm btn-linegray"><span>관심상품</span></a>
+                                            <a href="#none" class="btn-sm btn-linegray"><span>삭제</span></a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="cart-rst">
+                    <table class="tbl-total-sum">
+                        <colgroup>
+                            <col>
+                            <col>
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td>[기본배송]</td>
+                                <td>
+                                    <div class="total">
+                                        <p>상품 구매금액 <span>8,400</span>원</p>
+                                        <span class="ico-plus"></span>
+                                        <p>배송비 <span>0</span>원</p>
+                                        <span class="ico-sum"></span>
+                                        <p class="sum">총 주문금액 <span>8,400</span>원</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="round-box">
+                <div class="tbl-wrap">
+                    <table>
+                        <colgroup>
+                            <col style="width:40px;">
+                            <col>
+                            <col style="width:100px;">
+                            <col style="width:140px;">
+                            <col style="width:84px;">
+                            <col style="width:99px;">
+                            <col style="width:84px;">
+                            <col style="width:100px;">
+                            <col style="width:133px;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    <span class="check-box">
+                                        <input type="checkbox" id="allcheck02">
+                                        <label for="allcheck02"><span class="ico"></span></label>
+                                    </span>
+                                </th>
+                                <th scope="col">상품정보</th>
+                                <th scope="col">판매가</th>
+                                <th scope="col">수량</th>
+                                <th scope="col">적립금</th>
+                                <th scope="col">배송구분</th>
+                                <th scope="col">배송비</th>
+                                <th scope="col">합계</th>
+                                <th scope="col">선택</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="check-box">
+                                        <input type="checkbox" id="check03">
+                                        <label for="check03"><span class="ico"></span></label>
+                                    </span>
+                                </td>
+                                <td class="prd-item">
+                                    <span class="img"><img src="../resource/images/content/cart_item03.png" alt=""></span>
+                                    <div>
+                                        <p>에비앙 생수 500mlx24ea</p>
+                                    </div>
+                                </td>
+                                <td><p class="price"><span>6,000</span>원</p></td>
+                                <td>
+                                    <div class="option-change">
+                                        <div class="btn-quantity">
+                                            <button type="button" class="btn-minus">
+                                                <span class="blind">수량 빼기</span>
+                                            </button>
+                                            <input type="text" class="input-num roboto" value="1">
+                                            <button type="button" class="btn-plus">
+                                                <span class="blind">수량 추가</span>
+                                            </button>
+                                        </div>
+                                        <div class="btn-area">
+                                            <a href="#none" class="btn-sm btn-pink"><span>변경</span></a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="saved-money saved01"><span>무</span>50원</p>
+                                    <p class="saved-money saved02"><span>카</span>50원</p>
+                                    <p class="saved-money saved03"><span>실</span>50원</p>
+                                    <p class="saved-money saved04"><span>휴</span>50원</p>
+                                    <p class="saved-money saved05"><span>예</span>50원</p>
+                                    <p class="saved-money saved06"><span>페</span>50원</p>
+                                    <p class="saved-money saved07"><span>오</span>50원</p>
+                                </td>
+                                <td>기본배송</td>
+                                <td>무료</td>
+                                <td><p class="price"><span>6,000</span>원</p></td>
+                                <td>
+                                    <div class="option-change">
+                                        <div class="btn-area">
+                                            <a href="#none" class="btn-sm btn-pink"><span>주문하기</span></a>
+                                            <a href="#none" class="btn-sm btn-linegray"><span>관심상품</span></a>
+                                            <a href="#none" class="btn-sm btn-linegray"><span>삭제</span></a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="cart-rst">
+                    <table class="tbl-total-sum">
+                        <colgroup>
+                            <col>
+                            <col>
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td>[기본배송]</td>
+                                <td>
+                                    <div class="total">
+                                        <p>상품 구매금액 <span>8,400</span>원</p>
+                                        <span class="ico-plus"></span>
+                                        <p>배송비 <span>0</span>원</p>
+                                        <span class="ico-sum"></span>
+                                        <p class="sum">총 주문금액 <span>8,400</span>원</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <p class="txt-guide">할인 적용 금액은 주문서 작성의 결제 예정 금액에서 확인 가능합니다.</p>
+            <div class="btn-wrap clear">
+                <div class="fl-left">
+                    <a href="#" class="btn-md02 btn-pink"><span>삭제</span></a>
+                    <a href="#" class="btn-md02 btn-linegray"><span>해외배송 장바구니로 이동</span></a>
+                </div>
+                <div class="fl-right">
+                    <a href="#" class="btn-md02 btn-linegray"><span>장바구니 비우기</span></a>
+                    <a href="#" class="btn-md02 btn-linegray"><span>견적서 출력</span></a>
+                </div>
+            </div>
+
+            <div class="round-box">
+                <div class="tbl-wrap type02">
+                    <table>
+                        <colgroup>
+                            <col>
+                            <col>
+                            <col>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">총 상품금액</th>
+                                <th scope="col">총 배송비</th>
+                                <th scope="col">결제예정금액</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span>33,400</span>원</td>
+                                <td><span>+0</span>원</td>
+                                <td><span>33,400</span>원</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="btn-wrap clear">
+                <a href="#" class="btn-large btn-linegray"><span>쇼핑계속하기</span></a>
+                <a href="#" class="btn-large btn-linepink"><span>장바구니</span></a>
+                <a href="#" class="btn-large btn-pink"><span>결제하기</span></a>
+            </div>
+
+            <h3 class="sub-tit">관심상품</h3>
+            <div class="round-box">
+                <div class="tbl-wrap">
+                    <table>
+                        <colgroup>
+                            <col>
+                            <col style="width:100px;">
+                            <col style="width:99px;">
+                            <col style="width:84px;">
+                            <col style="width:100px;">
+                            <col style="width:133px;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">상품정보</th>
+                                <th scope="col">판매가</th>
+                                <th scope="col">배송구분</th>
+                                <th scope="col">배송비</th>
+                                <th scope="col">합계</th>
+                                <th scope="col">선택</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="prd-item">
+                                    <span class="img"><img src="../resource/images/content/cart_item03.png" alt=""></span>
+                                    <div>
+                                        <p>에비앙 생수 500mlx24ea</p>
+                                    </div>
+                                </td>
+                                <td><p class="price"><span>6,000</span>원</p></td>
+                                <td>기본배송</td>
+                                <td>무료</td>
+                                <td><p class="price"><span>6,000</span>원</p></td>
+                                <td>
+                                    <div class="option-change">
+                                        <div class="btn-area">
+                                            <a href="#none" class="btn-sm btn-pink"><span>주문하기</span></a>
+                                            <a href="#none" class="btn-sm btn-linegray"><span>관심상품</span></a>
+                                            <a href="#none" class="btn-sm btn-linegray"><span>삭제</span></a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="btn-first">첫페이지</a>
+				<a href="#" class="btn-prev">이전페이지</a>
+				<span>
+					<a href="#" class="active">1</a>
+				</span>
+				<a href="#" class="btn-next">다음페이지</a>
+				<a href="#" class="btn-last">마지막페이지</a>
+			</div>
+
+            <div class="noti-box">
+                <div>
+                    <div class="box">
+                        <p>장바구니 유의사항</p>
+                        <ul>
+                            <li>해외배송 상품과 국내배송 상품은 함께 결제하실 수 없으니 장바구니 별로 따로 결제해 주시기 바랍니다.</li>
+                            <li>해외배송 가능 상품의 경우 국내배송 장바구니에 담았다가 해외배송 장바구니로 이동하여 결제하실 수 있습니다.</li>
+                            <li>선택하신 상품의 수량을 변경하시려면 수량변경 후 [변경] 버튼을 누르시면 됩니다.</li>
+                            <li>[쇼핑계속하기] 버튼을 누르시면 쇼핑을 계속 하실 수 있습니다.</li>
+                            <li>장바구니와 관심상품을 이용햐여 원하시는 상품만 주문하거나 관심상품으로 등록하실 수 있습니다.</li>
+                            <li>파일첨부 옵션은 동일상품을 장바구니에 추가할 경우 마지막에 업로드 한 파일로 교체됩니다.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <p>무의자할부 유의사항</p>
+                        <ul>
+                            <li>상품별 무이자할부 혜택을 받으시려면 무이자할부 상품만 선택하여 [주문하기] 버튼을 눌러 주문/결제 하시면 됩니다.</li>
+                            <li>[전체 상품 주문] 버튼을 누르시면 장바구니의 구분없이 선택된 모든 상품에 대한 주문/결제가 이루어집니다.</li>
+                            <li>단, 전체 상품을 주문/결제하실 경우, 상품별 무이자 할부 혜택을 받으실 수 없습니다.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--sub-container-->
+	<div id="footer">
+		<div class="ft-top">
+			<div class="inner">
+				<ul class="ft-menu">
+					<li><a href="#">상품 입점제안</a></li>
+					<li><a href="#">BtoB 도매거래 문의</a></li>
+					<li><a href="#">강남콩 소개</a></li>
+					<li><a href="#">개인정보 취급방침</a></li>
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">공지사항</a></li>
+				</ul>
+
+				<ul class="sns">
+					<li><a href="#" class="sns-kakao">카카오톡</a></li>
+					<li><a href="#" class="sns-instar">인스타그램</a></li>
+					<li><a href="#" class="sns-facebook">페이스북</a></li>
+					<li><a href="#" class="sns-blog">네이버 블로그</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="ft-btm">
+			<div class="inner">
+				<div class="left-side">
+					<a href="#" class="btm-logo"><img src="../resource/images/common/bottom-logo.png" alt="GANGNAMKONG"></a>
+					<p>[상호 주식회사 : 서경] [주소 : 경기도 하남시 하남대로 195번길 12(상산곡동)]<br>
+					[대표이사 : 김응섭] [사업자 등록번호 : 126-86-42500]<br>
+					[통신판매업신고번호 : 2011 경기하남 0267호] [개인정보 보호책임자 : 김태곤]<br>
+					[팩스 : 031 - 794 -7906] [이메일 : ttl3567@soekyung.com]</p>
+					<p class="copyright">Copyrightⓒ (주) 강남콩. All Rights Reserved.</p>
+					<p><img src="../resource/images/common/mark.png" usemap="#footer_escrow" alt=""></p>
+					<map name="footer_escrow">
+						<area shape="rect" coords="50,0,130,78" href="https://www.allatpay.com/servlet/AllatBizV2/svcinfo/SvcInfoMainCL?menu_id=m010602&amp;action_flag=SEARCH&amp;search_no=biz_no&amp;es_business_no=1268642500" alt="" target="_blank">
+					</map>
+				</div>
+				<div class="right-side">
+					<dl>
+						<dt>고객센터</dt>
+						<dd><a href="tel:1588.2792">1588.2792</a></dd>
+					</dl>
+					<p><span class="lts">평&nbsp;&nbsp;&nbsp;&nbsp;일</span>&nbsp;&nbsp;am 09:00 - pm 05:00<br>
+					<span>토요일</span>&nbsp;&nbsp;am 09:00 - pm 12:00<br>
+					<span class="lts">점&nbsp;&nbsp;&nbsp;&nbsp;심</span>&nbsp;&nbsp;am 12:00 - pm 01:00<br>
+					일요일 및 공휴일 휴무</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Footer -->
+</body>
+</html>
