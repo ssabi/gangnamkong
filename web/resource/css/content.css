@@ -307,5 +307,6 @@
 .rl-btm a:before{content:'';display:block;position:absolute;left:0;top:0;width:20px;height:20px;}
 .rl-btm a.btn-good{padding-left:23px;}
 .rl-btm a.btn-good:before{background:url(../images/icon/ico_smile.svg) no-repeat left top;}
+.rl-btm a.btn-good.on:before{background-image:url(../images/icon/ico_smile_on.svg);}
 .rl-btm a.btn-per{margin-left:11px;padding-left:23px;}
 .rl-btm a.btn-per:before{background:url(../images/icon/ico_paper.svg) no-repeat left top;}
