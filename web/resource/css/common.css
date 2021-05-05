@@ -136,7 +136,7 @@
 /* btn */
 .btn-sm{width: auto; height: 30px;font-size: 16px;line-height: 30px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;padding: 3px 20px;display: inline-block;line-height: 23px;letter-spacing: -1px;}
 .btn-md{width: 155px; height: 60px;font-size: 18px;line-height: 60px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;display: inline-block;}
-.btn-md02{min-width: 90px; height: 40px;font-size: 16px;line-height:38px;text-align:center;border-radius: 5px;border:0;background-color: #ffffff;display: inline-block;vertical-align:middle;}
+.btn-md02{min-width: 90px; height: 40px;font-size: 16px;line-height:38px;text-align:center;border-radius: 5px;border:1px solid #fff;background-color: #ffffff;display: inline-block;vertical-align:middle;}
 .btn-large{width: 320px; height: 60px;font-size: 18px;line-height: 60px;text-align:center;border-radius: 5px;border: solid 1px #e6e6e6;background-color: #ffffff;display: inline-block;}
 .btn-linepink{border-color: #ffb2ca;color: #ffb2ca;}
 .btn-linepink:active, .btn-linepink:hover, .btn-linepink:focus{background-color: #fff1f6;color: #ffb2ca;}
@@ -166,6 +166,13 @@
 .radio-wrap label{position:relative;padding-left:28px;font-weight:500;font-size:16px;color:#333;cursor:pointer;}
 .radio-wrap label:before{content:'';display:block;position:absolute;left:0;top:4px;width:18px;height:18px;background:url(../images/icon/ico_radio.svg) no-repeat left top;background-size:100%;}
 .radio-wrap input:checked + label:before{background-image:url(../images/icon/ico_radio_on.svg);}
+
+.check-wrap{overflow:hidden;position:relative;}
+.check-wrap input{position:absolute;left:0;top:0;}
+.check-wrap label{position:relative;padding-left:30px;font-size:16px;line-height:24px;color:#333;cursor:pointer;}
+.check-wrap label:before{content:'';display:block;position:absolute;left:0;top:2px;width:20px;height:20px;background:url(../images/icon/ico_check.svg) no-repeat left top;background-size:100%;}
+.check-wrap input:checked + label:before{background-image:url(../images/icon/ico_check_on.svg);}
+
 
 /*Modal*/
 .modal{
