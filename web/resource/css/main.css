@@ -112,3 +112,10 @@ h2.main-tit a{background:url(../images/icon/ico_arrow-right.svg) no-repeat right
 .recipe-pagination .swiper-pagination{width:100%;}
 .recipe-pagination .swiper-pagination-bullet{width:8px;height:8px;margin:0 5px;background-color:#c8c8c8;opacity:1;vertical-align:middle;}
 .recipe-pagination .swiper-pagination-bullet-active{width:10px;height:10px;background-color:#ffb2ca;}
+
+/* 20210506 추가 */
+.visual .swiper-button-prev,
+.visual .swiper-button-next{top:300px;}
+.visual .swiper-button-prev{left:50%;transform:translate(-760px, 0);}
+.visual .swiper-button-next{right:50%;transform:translate(760px, 0);}
+/* //20210506 추가 */

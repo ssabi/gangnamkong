@@ -25,14 +25,20 @@ $(document).ready(function() {
 		}
 	});
 
+	//20210506 수정 Start
 	//Main Visual Swiper
 	var visualSwiper = new Swiper('.visual .swiper-container', {
-		loop: true,
+		//loop: true,
 		autoplay: {
 			delay: 5000,
 			disableOnInteraction: false,
 		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
 	});
+	//20210506 수정 End
 	var newSwiper = new Swiper('.new-product .swiper-container', {
 		slidesPerView: 'auto',
 		//slidesPerView: 4,

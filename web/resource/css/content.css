@@ -424,7 +424,7 @@
 .round-box .payment-wrap > div{height:390px;}
 .round-box .payment-wrap .fl-left{width:calc(100% - 349px);}
 .round-box .payment-wrap .fl-right{width:349px;border-left:1px solid #e6e6e6;}
-.round-box .payment-wrap .pay-type{height:136px;}
+.round-box .payment-wrap .pay-type{height:136px;padding:35px 19px 10px 20px;}
 .round-box .payment-wrap .pay-guide{display:table;width:100%;height:calc(100% - 136px);border-top:1px solid #e6e6e6;text-align:center;}
 .round-box .payment-wrap .pay-guide > div{display:table-cell;padding:20px;vertical-align:middle;}
 .round-box .payment-wrap .pay-guide p{font-weight:500;font-size:14px;line-height:22px;color:#999;}
