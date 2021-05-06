@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_1415" fill="#fff" stroke="#707070" d="M0 0H20V20H0z" transform="translate(31 239)"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:#fff}.cls-7{fill:none}.cls-4{stroke:#666}.cls-6{stroke:none}
+        </style>
+    </defs>
+    <g id="마스크_그룹_276" clip-path="url(#clip-path)" transform="translate(-31 -239)">
+        <g id="그룹_1228" transform="translate(2 2)">
+            <g id="사각형_1413" fill="none" stroke="#666" transform="translate(35 239)">
+                <rect width="8" height="10" class="cls-6" rx="4"/>
+                <rect width="7" height="9" x=".5" y=".5" class="cls-7" rx="3.5"/>
+            </g>
+            <g id="사각형_1414" class="cls-4" transform="translate(32 245)">
+                <rect width="14" height="11" class="cls-6" rx="2"/>
+                <rect width="13" height="10" x=".5" y=".5" class="cls-7" rx="1.5"/>
+            </g>
+        </g>
+        <g id="그룹_1229" transform="translate(-6 1)">
+            <g id="타원_101" class="cls-4" transform="translate(46 250)">
+                <circle cx="1" cy="1" r="1" class="cls-6"/>
+                <circle cx="1" cy="1" r=".5" class="cls-7"/>
+            </g>
+            <path id="패스_494" fill="none" stroke="#666" stroke-linecap="round" d="M-14276-5012.651v2" transform="translate(14323 5264)"/>
+        </g>
+    </g>
+</svg>
