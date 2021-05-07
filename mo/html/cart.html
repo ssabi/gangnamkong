@@ -36,257 +36,217 @@
     </div>
     <!-- //Header -->
     <div id="container">
-        <div class="bg_grey">
-            <div class="section">
-                <div class="sec_tit">
-                    <h2>장바구니</h2>
-                </div>
-                <div class="round_box">
-                    <div class="accord_wrap">
-                        <div class="accord_tit">
-                            <div class="agree_wrap">
-                                <input type="checkbox" id="chk_all">
-                                <label for="chk_all">전체선택</label>
-                            </div>
-                            <button type="button" class="btn size_xs btn_line_grey"><span>선택삭제</span></button>
-                            <div class="btn_box">
-                                <button type="button" class="btn_accord"><span>접기</span></button>
+        <div class="section type02">
+            <div class="tab_wrap">
+                <ul>
+                    <li class="on"><a href="#">국내배송상품 <span>(5)</span></a></li>
+                    <li><a href="#">해외배송상품 <span>(0)</span></a></li>
+                </ul>
+            </div>
+            <p class="txt_guide">장바구니에 담긴 상품은 2일 동안 보관됩니다.</p>
+
+            <div class="sec_tit">
+                <h2>일반상품</h2>
+            </div>
+
+            <div class="round_box">
+                <div class="item">
+                    <div class="prd_info">
+                        <div class="agree_wrap">
+                            <input type="checkbox" id="chk01" checked>
+                            <label for="chk01"></label>
+                        </div>
+                        <span class="img"><a href="#"><img src="../resource/images/temp/list_item01.png" alt=""></a></span>
+                        <div>
+                            <p class="prd_tit"><a href="#">페라리니 모르타델라 위드 피스타치오 120gx1ea</a></p>
+                            <span class="prd_delivery">배송 : 무료 / 기본배송</span>
+                            <p class="prd_price"><span>6,000</span>원</p>
+                            <div class="btn-quantity">
+                                <button type="button" class="btn-minus">
+                                    <span class="blind">수량 빼기</span>
+                                </button>
+                                <input type="text" class="input-num roboto" value="1">
+                                <button type="button" class="btn-plus">
+                                    <span class="blind">수량 추가</span>
+                                </button>
                             </div>
                         </div>
-                        <div class="accord_con">
-                            <div class="item">
-                                <div class="agree_wrap">
-                                    <input type="checkbox" id="item01">
-                                    <label for="item01"></label>
-                                </div>
-                                <div class="item_con">
-                                    <span><a href="#"><img src="../resource/images/temp/thumb_cart01.jpg" alt=""></a></span>
-                                    <dl>
-                                        <dt><a href="#">에덴 이브 스파클링 애플에덴 이브 스파클링 애플</a></dt>
-                                        <dd class="desc">옵션 : 박스상품</dd>
-                                        <dd><a href="#">옵션변경</a></dd>
-                                    </dl>
-                                    <button type="button" class="btn_del"><span>삭제</span></button>
-                                    <div class="item_btm">
-                                        <div class="btn-quantity">
-                                            <button type="button" class="btn-minus">
-                                                <span class="blind">수량 빼기</span>
-                                            </button>
-                                            <input type="text" class="input-num roboto" value="1">
-                                            <button type="button" class="btn-plus">
-                                                <span class="blind">수량 추가</span>
-                                            </button>
-                                        </div>
-
-                                        <p><span>18,900</span>원</p>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="prd_pay">
+                        <p class="price">합계 : <span>6,000</span>원</p>
+                        <div class="btn_wrap">
+                            <div class="fl_left">
+                                <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>삭제</span></a>
+                                <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>관심상품</span></a>
                             </div>
-                            <!-- //item -->
-                            <div class="item">
-                                <div class="agree_wrap">
-                                    <input type="checkbox" id="item02">
-                                    <label for="item02"></label>
-                                </div>
-                                <div class="item_con">
-                                    <span><a href="#"><img src="../resource/images/temp/thumb_cart02.jpg" alt=""></a></span>
-                                    <dl>
-                                        <dt><a href="#">에덴 이브 스파클링 애플에덴 이브 스파클링 애플</a></dt>
-                                        <dd class="desc">옵션 : 오렌지 1개, 사과 2개, 포도 3개, 망고 2개, 백포도 5개</dd>
-                                        <dd><a href="#">옵션변경</a></dd>
-                                    </dl>
-                                    <button type="button" class="btn_del"><span>삭제</span></button>
-                                    <div class="item_btm">
-                                        <div class="btn-quantity">
-                                            <button type="button" class="btn-minus">
-                                                <span class="blind">수량 빼기</span>
-                                            </button>
-                                            <input type="text" class="input-num roboto" value="20">
-                                            <button type="button" class="btn-plus">
-                                                <span class="blind">수량 추가</span>
-                                            </button>
-                                        </div>
-
-                                        <p><span>18,900</span>원</p>
-                                    </div>
-                                </div>
+                            <div class="fl_right">
+                                <a href="javascript:void(0);" class="btn size_s bg_pink"><span>주문하기</span></a>
                             </div>
-                            <!-- //item -->
-                            <div class="item">
-                                <div class="agree_wrap">
-                                    <input type="checkbox" id="item03">
-                                    <label for="item03"></label>
-                                </div>
-                                <div class="item_con">
-                                    <span><a href="#"><img src="../resource/images/temp/thumb_cart03.jpg" alt=""></a></span>
-                                    <dl>
-                                        <dt><a href="#">에덴 이브 스파클링 애플에덴 이브 스파클링 애플</a></dt>
-                                        <dd class="desc">옵션 : 오렌지 1개, 사과 2개, 포도 3개, 망고 2개, 백포도 5개</dd>
-                                        <dd><a href="#">옵션변경</a></dd>
-                                    </dl>
-                                    <button type="button" class="btn_del"><span>삭제</span></button>
-                                    <div class="item_btm">
-                                        <div class="btn-quantity">
-                                            <button type="button" class="btn-minus">
-                                                <span class="blind">수량 빼기</span>
-                                            </button>
-                                            <input type="text" class="input-num roboto" value="200">
-                                            <button type="button" class="btn-plus">
-                                                <span class="blind">수량 추가</span>
-                                            </button>
-                                        </div>
-
-                                        <p><span>18,900</span>원</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- //item -->
                         </div>
                     </div>
-
-                    <div class="total_sub">
-                        <dl>
-                            <dt>상품금액 합계</dt>
-                            <dd><span>3,780,000</span>원</dd>
-                        </dl>
-                        <dl>
-                            <dt>배송비<span>회원 5,000원 이상 무료배송</span></dt>
-                            <dd><span>2,500</span>원</dd>
-                        </dl>
-                    </div>
-                    <div class="total">
-                        <dl>
-                            <dt>최종 결제금액</dt>
-                            <dd><span>3,156,356</span>원</dd>
-                        </dl>
-                    </div>
                 </div>
-
-                <div class="sub_tit">
-                    <h3>주문자 정보</h3>
-                </div>
-                <div class="round_box">
-                    <dl>
-                        <dt>성함</dt>
-                        <dd>강무성</dd>
-                    </dl>
-                    <dl>
-                        <dt>연락처</dt>
-                        <dd>010 - 2979 - 3158</dd>
-                    </dl>
-                    <dl>
-                        <dt>이메일</dt>
-                        <dd>moos1513@naver.com</dd>
-                    </dl>
-                </div>
-
-                <div class="sub_tit">
-                    <h3>수령자 정보</h3>
-                    <a href="#" class="btn size_xs bg_pink"><span>배송지 추가/변경</span></a>
-                </div>
-                <div class="round_box">
-                    <dl>
-                        <dt>성함</dt>
-                        <dd>강무성</dd>
-                    </dl>
-                    <dl>
-                        <dt>연락처</dt>
-                        <dd>010 - 2979 - 3158</dd>
-                    </dl>
-                    <dl>
-                        <dt>주소</dt>
-                        <dd>서울특별시 강동구 암사동 513-39번지 에벤에셀 503호
-                            <p class="home_delivery">홈딜리버리 지역입니다. <a href="#"><span>배송정책</span></a></p>
-                        </dd>
-                    </dl>
-                    <dl>
-                        <dt>수령방법</dt>
-                        <dd>문 앞(#2580#) <a href="#" class="btn size_xs bg_pink"><span>변경</span></a></dd>
-                    </dl>
-                </div>
-
-                <div class="sub_tit">
-                    <h3>쿠폰 / 적립금</h3>
-                </div>
-                <div class="form_wrap">
-                    <div>
-                        <div class="select_wrap">
-                            <select class="default">
-                                <option value="default">사용 가능 쿠폰 0장 / 전체 1장</option>
-                                <option>####01</option>
-                                <option>####02</option>
-                                <option>####03</option>
-                                <option>####04</option>
-                            </select>
+                <div class="item">
+                    <div class="prd_info">
+                        <div class="agree_wrap">
+                            <input type="checkbox" id="chk02" checked>
+                            <label for="chk02"></label>
+                        </div>
+                        <span class="img"><a href="#"><img src="../resource/images/temp/list_item01.png" alt=""></a></span>
+                        <div>
+                            <p class="prd_tit"><a href="#">엘사보르 나쵸칩 3종</a></p>
+                            <span class="prd_delivery">배송 : 무료 / 기본배송</span>
+                            <p class="prd_price"><span>2,400</span>원</p>
+                            <div class="btn-quantity">
+                                <button type="button" class="btn-minus">
+                                    <span class="blind">수량 빼기</span>
+                                </button>
+                                <input type="text" class="input-num roboto" value="1">
+                                <button type="button" class="btn-plus">
+                                    <span class="blind">수량 추가</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="input_wrap">
-                            <input type="text" value="" placeholder="0">
+                    <div class="prd_option">
+                        <p>[옵션 : 01. 솔티드 나쵸칩 225gx1ea]</p>
+                        <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>옵션변경</span></a>
+                    </div>
+                    <div class="prd_pay">
+                        <p class="price">합계 : <span>2,400</span>원</p>
+                        <div class="btn_wrap">
+                            <div class="fl_left">
+                                <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>삭제</span></a>
+                                <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>관심상품</span></a>
+                            </div>
+                            <div class="fl_right">
+                                <a href="javascript:void(0);" class="btn size_s bg_pink"><span>주문하기</span></a>
+                            </div>
                         </div>
-                        <button type="button" class="btn size_s bg_pink"><span>모두사용</span></button>
-                    </div>
-                    <p>사용가능 적립금 <span>26,700</span>원</p>
-                </div>
-
-                <div class="sub_tit">
-                    <h3>할인수단 / 결제금액</h3>
-                </div>
-                <div class="round_box">
-                    <dl>
-                        <dt>총 주문금액</dt>
-                        <dd class="tal_r"><span>4,716,900</span>원</dd>
-                    </dl>
-                    <dl>
-                        <dt>BIZ회원할인</dt>
-                        <dd class="tal_r"><span>-325,666</span>원</dd>
-                    </dl>
-                    <dl>
-                        <dt>쿠폰</dt>
-                        <dd class="tal_r"><span>-50,000</span>원</dd>
-                    </dl>
-                    <dl>
-                        <dt>적립금</dt>
-                        <dd class="tal_r"><span>-0</span>원</dd>
-                    </dl>
-                    <div class="total">
-                        <dl>
-                            <dt>최종 결제금액</dt>
-                            <dd><span>3,156,356</span>원
-                                <p class="total_guide">(적립 예정 : VIP회원 7% 220,944원)</p>
-                            </dd>
-                        </dl>
                     </div>
                 </div>
+            </div>
 
-                <div class="sub_tit">
-                    <h3>결제수단 선택</h3>
-                    <div class="agree_wrap">
-                        <input type="checkbox" id="payment" checked="checked">
-                        <label for="payment">선택한 결제수단 저장</label>
+            <div class="select_wrap type02">
+                <select>
+                    <option value="">기본배송</option>
+                    <option value="">####01</option>
+                </select>
+            </div>
+
+            <div class="round_box">
+                <div class="item">
+                    <div class="prd_info">
+                        <div class="agree_wrap">
+                            <input type="checkbox" id="chk03" checked>
+                            <label for="chk03"></label>
+                        </div>
+                        <span class="img"><a href="#"><img src="../resource/images/temp/list_item01.png" alt=""></a></span>
+                        <div>
+                            <p class="prd_tit"><a href="#">페라리니 모르타델라 위드 피스타치오 120gx1ea</a></p>
+                            <span class="prd_delivery">배송 : 무료 / 기본배송</span>
+                            <p class="prd_price"><span>6,000</span>원</p>
+                            <div class="btn-quantity">
+                                <button type="button" class="btn-minus">
+                                    <span class="blind">수량 빼기</span>
+                                </button>
+                                <input type="text" class="input-num roboto" value="1">
+                                <button type="button" class="btn-plus">
+                                    <span class="blind">수량 추가</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prd_pay">
+                        <p class="price">합계 : <span>6,000</span>원</p>
+                        <div class="btn_wrap">
+                            <div class="fl_left">
+                                <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>삭제</span></a>
+                                <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>관심상품</span></a>
+                            </div>
+                            <div class="fl_right">
+                                <a href="javascript:void(0);" class="btn size_s bg_pink"><span>주문하기</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="round_box">
-                    <ul class="payment_list">
-                        <li><input type="radio" name="payment" id="payment01" checked="checked"><label for="payment01">신용카드 원클릭 간편결제</label><a href="#" class="btn size_xs bg_pink"><span>카드 관리</span></a></li>
-                        <li><input type="radio" name="payment" id="payment02"><label for="payment02"><span class="pay_naver">NAVER Pay</span></label></li>
-                        <li><input type="radio" name="payment" id="payment03"><label for="payment03"><span class="pay_kakao">kakao Pay</span></label></li>
-                        <li><input type="radio" name="payment" id="payment04"><label for="payment04"><span class="pay_smile">SmailPay</span></label></li>
-                        <li><input type="radio" name="payment" id="payment05"><label for="payment05">신용카드</label></li>
-                        <li><input type="radio" name="payment" id="payment06"><label for="payment06">휴대폰 결제</label></li>
-                        <li><input type="radio" name="payment" id="payment07"><label for="payment07">가상계좌 입금</label></li>
-                    </ul>
-                </div>
-
-                <div class="agree_wrap">
-                    <input type="checkbox" id="agree">
-                    <label for="agree">위 구매조건을 확인 하였으며 결제대행 서비스 약관에 동의합니다.</label><a href="#">약관보기</a>
-                </div>
-
-                <div class="btn_wrap">
-                    <div>
-                        <a href="#" class="btn size_l bg_pink"><span>결제하기 <span class="roboto">3,156,356</span>원</span></a>
+                <div class="item">
+                    <div class="prd_info">
+                        <div class="agree_wrap">
+                            <input type="checkbox" id="chk04" checked>
+                            <label for="chk04"></label>
+                        </div>
+                        <span class="img"><a href="#"><img src="../resource/images/temp/list_item01.png" alt=""></a></span>
+                        <div>
+                            <p class="prd_tit"><a href="#">엘사보르 나쵸칩 3종</a></p>
+                            <span class="prd_delivery">배송 : 무료 / 기본배송</span>
+                            <p class="prd_price"><span>2,400</span>원</p>
+                            <div class="btn-quantity">
+                                <button type="button" class="btn-minus">
+                                    <span class="blind">수량 빼기</span>
+                                </button>
+                                <input type="text" class="input-num roboto" value="1">
+                                <button type="button" class="btn-plus">
+                                    <span class="blind">수량 추가</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
+                    <div class="prd_option">
+                        <p>[옵션 : 01. 솔티드 나쵸칩 225gx1ea]</p>
+                        <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>옵션변경</span></a>
+                    </div>
+                    <div class="prd_pay">
+                        <p class="price">합계 : <span>2,400</span>원</p>
+                        <div class="btn_wrap">
+                            <div class="fl_left">
+                                <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>삭제</span></a>
+                                <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>관심상품</span></a>
+                            </div>
+                            <div class="fl_right">
+                                <a href="javascript:void(0);" class="btn size_s bg_pink"><span>주문하기</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="select_wrap type02">
+                <select>
+                    <option value="">개별배송</option>
+                    <option value="">####01</option>
+                </select>
+            </div>
+
+            <div class="btn_wrap type02">
+                <div>
+                    <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>전체선택</span></a>
+                    <a href="javascript:void(0);" class="btn size_s btn_line_grey"><span>선택삭제</span></a>
+                </div>
+            </div>
+
+            <div class="round_box">
+                <ul class="payment_result">
+                    <li class="pay">
+                        <em>결제예정금액</em>
+                        <p><span>140,930</span>원</p>
+                    </li>
+                    <li>
+                        <em>총 상품금액</em>
+                        <p><span>140,930</span>원</p>
+                    </li>
+                    <li>
+                        <em>총 배송비</em>
+                        <p><span>0</span>원</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="btn_wrap col02">
+                <div>
+                    <a href="javascript:void(0);" class="btn size_l btn_line_grey"><span>선택상품주문</span></a>
+                </div>
+                <div>
+                    <a href="javascript:void(0);" class="btn size_l bg_pink"><span>전체상품주문</span></a>
                 </div>
             </div>
         </div>
