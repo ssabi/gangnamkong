@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	//Main Visual Swiper
-  var visualSwiper = new Swiper('.visual_swiper .swiper-container', {
+	var visualSwiper = new Swiper('.visual_swiper .swiper-container', {
 		loop: true,
 		pagination: {
 			el: '.swiper-pagination',
@@ -10,22 +10,22 @@ $(document).ready(function(){
 			delay: 5000,
 			disableOnInteraction: false,
 		},
-  });
+	});
 
 	//New Product Swiper
 	var newSwiper = new Swiper('.new_swiper .swiper-container', {
 		slidesPerView: 'auto',
-  });
+  	});
 
 	//Recipe Product Swiper
 	var recipeSwiper = new Swiper('.recipe_swiper .swiper-container', {
 		slidesPerView: 'auto',
-  });
+  	});
 
 	//Related Product Swiper
 	var recipeSwiper = new Swiper('.related_swiper .swiper-container', {
 		slidesPerView: 'auto',
-  });
+  	});
 
 	//Content Tab
 	/*
@@ -155,5 +155,15 @@ $(document).ready(function(){
 				}
 			});
 		}
+	});
+
+	$(".file_wrap").each(function(){
+		$(this).find('input[type="file"').on({
+			change : function(){
+				var $target = $(this).closest(".file_wrap").find('input[type="text"]');
+				var $value = $(this).val();
+				$target.val($value);
+			}
+		});
 	});
 });
