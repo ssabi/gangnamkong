@@ -71,8 +71,10 @@
 #header .gnb-wrap .inner .search-wrap > div{position:relative;}
 #header .gnb-wrap .inner .search-wrap .search-input{width: 370px;height: 40px;padding: 10px 60px 10px 30px;border-radius: 136px;background-color: #fff1f6;color: #444444;font-size: 14px;}
 #header .gnb-wrap .inner .search-wrap .search-ico{position: absolute;right: 30px;top: 10px;}
-#header .gnb-wrap .inner .search-wrap.ext .search-input{border:2px solid #ffb2ca;border-radius:0;border-top-left-radius:40px;border-top-right-radius:40px;background-color:#fff;outline:0;}
-#header .gnb-wrap .inner .search-wrap .search-ext{display:none;position:relative;left:0;top:100%;margin-top:-2px;z-index:20;border:2px solid #ffb2ca;border-bottom-left-radius:40px;border-bottom-right-radius:40px;background-color:#fff;}
+/* 20210511 수정 Start */
+#header .gnb-wrap .inner .search-wrap.ext .search-input{border:2px solid #ffb2ca;border-radius:0;border-top-left-radius:20px;border-top-right-radius:20px;background-color:#fff;outline:0;}
+#header .gnb-wrap .inner .search-wrap .search-ext{display:none;position:relative;left:0;top:100%;margin-top:-2px;z-index:20;border:2px solid #ffb2ca;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background-color:#fff;}
+/* 20210511 수정 End */
 #header .gnb-wrap .inner .search-wrap .search-ext > div{padding:20px 20px 25px;}
 #header .gnb-wrap .inner .search-wrap .search-ext strong{display:block;margin-bottom:12px;font-size:16px;line-height:20px;color:#333;}
 #header .gnb-wrap .inner .search-wrap .search-ext .recent-word{min-height:152px;margin:0 0 22px;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;}

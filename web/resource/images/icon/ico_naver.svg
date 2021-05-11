@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <clipPath id="6aa6hd01ra">
+            <path fill="#fff" stroke="#707070" d="M0 0H20V20H0z" transform="translate(123 659)"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-865 -668)">
+        <circle cx="25" cy="25" r="25" fill="#1ec819" transform="translate(865 668)"/>
+        <g clip-path="url(#6aa6hd01ra)" transform="translate(757 24)">
+            <g>
+                <g>
+                    <g>
+                        <path fill="#fff" d="M508.618 267.929v8.829l-6.048-8.829h-6.537v17.5h6.515V276.6l6.05 8.829h6.536v-17.5z" transform="translate(-373.035 392.071)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
