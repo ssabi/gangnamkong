@@ -95,7 +95,9 @@
 #header.fixed .gnb-wrap{position:fixed;left:0;top:0;width:100%;z-index:100;}
 
 /* Footer */
-#footer{background-color:#fff;}
+/* 20210522 수정 Start */
+#footer{min-width:1280px;background-color:#fff;}
+/* 20210522 수정 End */
 .ft-top{border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;}
 .ft-top .inner{overflow:hidden;width:1280px;height:72px;margin:0 auto;}
 .ft-menu{overflow:hidden;float:left;margin:25px 0 0 90px;}
