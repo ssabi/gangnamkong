@@ -595,3 +595,56 @@
 .plp-wrap .plp-list li .btn-add-cart span{display:block;overflow:hidden;width:inherit;height:inherit;text-indent:-9999px;background:url(../images/icon/ico_cart02.svg) no-repeat left top;}
 .plp-wrap .plp-list li:hover .btn-add-cart, .plp-wrap .plp-list li:focus .btn-add-cart{display:block;}
 /* 20210519 추가 End */
+
+/* 20210522 추가 Start */
+.sub-tit-area{padding:50px 0 30px;}
+.sub-tit-area h1{font-weight:700;font-size:40px;line-height:58px;color:#333;}
+.sub-tit-area + .plp-wrap{margin-top:30px;}
+.cate-tab-wrap{clear:both;}
+.cate-tab-wrap ul{display:table;width:100%;table-layout:fixed;border-collapse:collapse;font-size:16px;line-height:24px;letter-spacing:-0.8px;color:#828282;text-align:center;}
+.cate-tab-wrap ul li{display:table-cell;height:60px;border:1px solid #e6e6e6;vertical-align:middle;}
+.cate-tab-wrap ul li div{display:table;width:100%;height:100%;}
+.cate-tab-wrap ul li a{display:table-cell;height:100%;vertical-align:middle;}
+.cate-tab-wrap ul li.on{position:relative;border-color:#ffb2ca;background-color:#feb2ca;font-weight:500;}
+.cate-tab-wrap ul li.on a{color:#fff;}
+.cate-tab-wrap + .list-opt{margin-top:30px;}
+
+.list-opt{padding:0 20px;height:52px;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;text-align:right;}
+.list-opt p{padding:15px 0;float:left;font-size:14px;line-height:20px;color:#828282;}
+.list-opt p span{margin:0 2px;font-weight:500;color:#feb2ca;font-family:'Roboto', sans-serif;}
+.list-opt ul{display:inline-block;height:100%;font-size:0;letter-spacing:0;vertical-align:top;}
+.list-opt ul li{display:inline-block;padding-left:21px;margin-left:20px;position:relative;height:inherit;font-size:14px;line-height:20px;color:#828282;vertical-align:top;}
+.list-opt ul li:before{content:'';display:block;position:absolute;left:0;top:50%;margin-top:-5px;width:1px;height:12px;background-color:#e6e6e6;}
+.list-opt ul li:first-child{padding-left:0;margin-left:0;}
+.list-opt ul li:first-child:before{display:none;}
+.list-opt ul li a{display:block;padding:15px 0;height:inherit;color:inherit;}
+.list-opt ul li.on{font-weight:500;color:#feb2ca;}
+
+.login-wrap.type04{width:508px;padding:100px 0 110px;}
+.login-wrap.type04 .form-wrap .input-wrap input{width:100%;}
+.login-wrap.type04 .btn-wrap{width:100%;}
+
+.non-member-guide{margin-top:30px;padding:30px 0 10px;border-top:1px solid #e6e6e6;}
+.non-member-guide > div{position:relative;padding-right:130px;}
+.non-member-guide > div + div{margin-top:20px;}
+.non-member-guide dl{padding-left:11px;font-size:14px;line-height:20px;}
+.non-member-guide dl dt{position:relative;font-weight:500;color:#333;}
+.non-member-guide dl dt:before{content:'';display:block;position:absolute;left:-11px;top:7px;width:6px;height:6px;background:url(../images/icon/ico_arrow-right_6x6.svg) no-repeat left top;}
+.non-member-guide dl dd{color:#595959;}
+.non-member-guide .btn-md02{position:absolute;right:0;top:0;width:110px;}
+
+.round-box .tbl-write table td .phone-wrap{}
+.round-box .tbl-write table td .phone-wrap:after{content:'';display:block;clear:both;}
+.round-box .tbl-write table td .phone-wrap .select-wrap{float:left;width:110px;vertical-align:middle;}
+.round-box .tbl-write table td .phone-wrap > span{float:left;width:16px;height:40px;line-height:40px;font-weight:500;font-size:16px;color:#333;text-align:center;vertical-align:middle;}
+.round-box .tbl-write table td .phone-wrap input{float:left;width:130px;}
+.round-box .tbl-write table td .email-wrap.type02{}
+.round-box .tbl-write table td .email-wrap.type02 > span{display:inline-block;width:26px;height:40px;line-height:40px;font-weight:500;font-size:16px;color:#333;text-align:center;vertical-align:middle;}
+.round-box .tbl-write table td .email-wrap.type02 input{width:230px;}
+.round-box .tbl-write table td .email-wrap.type02 .select-wrap{width:175px;}
+.round-box .tbl-write table td input + .txt-guide{margin-left:10px;color:#333;}
+.round-box .tbl-write table td .agree-wrap{padding-top:5px;}
+.round-box .tbl-write table td .agree-wrap p{display:inline-block;font-size:16px;line-height:24px;color:#333;vertical-align:middle;}
+.round-box .tbl-write table td .scroll-wrap{margin-top:14px;width:850px;height:80px;border-radius:5px;border:1px solid #e6e6e6;}
+.round-box .tbl-write table td .scroll-wrap > div{padding:8px 12px 9px}
+/* 20210522 추가 End */
