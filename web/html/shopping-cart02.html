@@ -426,7 +426,7 @@
             <div class="tit-wrap">
                 <h2 class="tit">결제 예정 금액</h2>
             </div>
-            <div class="round-box type02">
+            <div class="round-box">
                 <div class="tbl-wrap type02">
                     <table>
                         <colgroup>
@@ -456,6 +456,10 @@
                             <span>총 할인금액</span>
                             0원
                         </li>
+                        <li class="coupon">
+                            <span>쿠폰할인</span>
+                            <a href="#" class="btn-sm btn-pink"><span>쿠폰적용</span></a>
+                        </li>
                         <li>
                             <span>총 부가 결제금액</span>
                             0원
@@ -465,10 +469,25 @@
                 <div class="tbl-write">
                     <table>
                         <colgroup>
-                            <col style="width:140px;">
+                            <col style="width:159px;">
                             <col>
                         </colgroup>
                         <tbody>
+                            <tr>
+                                <th scope="row">적립금</th>
+                                <td>
+                                    <div class="price-wrap">
+                                        <input type="text" value="">
+                                        <p><strong>원</strong> (총 사용가능 예치금 : <span>0</span>원)</p>
+                                    </div>
+                                    <ul class="txt-guide-list">
+                                        <li>- 적립금은 최소 0 이상일 때 결제가 가능합니다.</li>
+                                        <li>- 최대 사용금액은 제한이 없습니다.</li>
+                                        <li>- 1회 구매시 적립금 최대 사용금액은 1,900원 입니다.</li>
+                                        <li>- 적립금으로만 결제할 경우, 결제금액이 0으로 보여지는 것은 정상이며 [결제하기] 버튼을 누르면 주문이 완료됩니다.</li>
+                                    </ul>
+                                </td>
+                            </tr>
                             <tr>
                                 <th scope="row">예치금</th>
                                 <td>
@@ -495,7 +514,8 @@
                     <label for="set01">결제수단과 입력정보를 다음에도 사용</label>
                 </div>
             </div>
-            <div class="round-box type02">
+            <!-- 카드결제 -->
+            <div class="round-box">
                 <div class="payment-wrap">
                     <div class="fl-left">
                         <div class="pay-type">
@@ -542,7 +562,216 @@
                     </div>
                 </div>
             </div>
+            <!-- //카드결제 -->
 
+            <!-- 무통장 입금 -->
+            <div class="round-box">
+                <div class="payment-wrap">
+                    <div class="fl-left">
+                        <div class="pay-type">
+                            <img src="../resource/images/content/payment.jpg" alt="">
+                        </div>
+                        <div class="pay-guide">
+                            <div class="pay-opt">
+                                <div class="box">
+                                    <dl>
+                                        <dt>입금자명</dt>
+                                        <dd>
+                                            <div class="input-wrap">
+                                                <input type="text" value="유승이">
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>입금은행</dt>
+                                        <dd>
+                                            <div class="select-wrap">
+                                                <select>
+                                                    <option value="">선택해 주세요</option>
+                                                    <option value="">####01</option>
+                                                </select>
+                                            </div>
+                                            <a href="#" class="btn-sm btn-pink"><span>은행사이트 바로가기</span></a>
+                                        </dd>
+                                    </dl>
+                                    <dl class="txt">
+                                        <dt>주의사항</dt>
+                                        <dd>무통장 입금시 <span class="color_black font_medium">주문자 명과 입금자 명</span>이 <span class="color_point01 font_medium">정확히 일치</span>해야 원활한 입금처리가 가능합니다.</dd>
+                                    </dl>
+                                </div>
+                                <div class="box line">
+                                    <dl>
+                                        <dt>현금영수증 신청</dt>
+                                        <dd>
+                                            <div class="radio-box">
+                                                <div class="radio-wrap">
+                                                    <input type="radio" name="cash" id="cash01" checked="">
+                                                    <label for="cash01">현금영수증 신청</label>
+                                                </div>
+                                                <div class="radio-wrap">
+                                                    <input type="radio" name="cash" id="cash02">
+                                                    <label for="cash02">새로운 배송지</label>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="box line">
+                                    <dl>
+                                        <dt>세금계산서 신청</dt>
+                                        <dd>
+                                            <div class="radio-box">
+                                                <div class="radio-wrap">
+                                                    <input type="radio" name="tax" id="tax01" checked="">
+                                                    <label for="tax01">세금계산서 신청</label>
+                                                </div>
+                                                <div class="radio-wrap">
+                                                    <input type="radio" name="tax" id="tax02">
+                                                    <label for="tax02">새로운 배송지</label>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fl-right">
+                        <div class="pay-info">
+                            <div class="pay-info-top">
+                                <p><span>무통장 입금</span>최종 결제금액</p>
+                                <p class="price"><strong>33,400</strong>원</p>
+
+                                <div class="check-wrap">
+                                    <input type="checkbox" name="pay" id="pay01">
+                                    <label for="pay01">결제정보를 확인하였으며, 구매진행에 <br>동의합니다.</label>
+                                </div>
+
+                                <a href="#" class="btn-large btn-pink"><span>결제하기</span></a>
+                            </div>
+                            <div class="pay-info-mid">
+                                <ul>
+                                    <li>
+                                        <span>총 적립예정금액</span>
+                                        <span><span>1,350</span>원</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pay-info-btm">
+                                <ul>
+                                    <li>
+                                        <span>상품별 적립금</span>
+                                        <span><span>1,350</span>원</span>
+                                    </li>
+                                    <li>
+                                        <span>회원 적립금</span>
+                                        <span><span>0</span>원</span>
+                                    </li>
+                                    <li>
+                                        <span>쿠폰 적립금</span>
+                                        <span><span>0</span>원</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //무통장 입금 -->
+
+            <!-- 실시간 계좌이체 -->
+            <div class="round-box">
+                <div class="payment-wrap">
+                    <div class="fl-left">
+                        <div class="pay-type">
+                            <img src="../resource/images/content/payment.jpg" alt="">
+                        </div>
+                        <div class="pay-guide">
+                            <div class="pay-opt">
+                                <div class="box">
+                                    <dl>
+                                        <dt>예금주명</dt>
+                                        <dd>
+                                            <div class="input-wrap">
+                                                <input type="text" value="유승이">
+                                            </div>
+                                            <p class="desc">소액 결제의 경우 PG사 정책에 따라 결제 금액 제한이 있을 수 있습니다.</p>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="box line">
+                                    <dl>
+                                        <dt>현금영수증 신청</dt>
+                                        <dd>
+                                            <div class="radio-box">
+                                                <div class="radio-wrap">
+                                                    <input type="radio" name="cash2" id="cash03" checked="">
+                                                    <label for="cash03">현금영수증 신청</label>
+                                                </div>
+                                                <div class="radio-wrap">
+                                                    <input type="radio" name="cash2" id="cash04">
+                                                    <label for="cash04">새로운 배송지</label>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="box line">
+                                    <dl>
+                                        <dt>세금계산서 신청</dt>
+                                        <dd>
+                                            <div class="radio-box">
+                                                <div class="radio-wrap">
+                                                    <input type="radio" name="tax2" id="tax03" checked="">
+                                                    <label for="tax03">세금계산서 신청</label>
+                                                </div>
+                                                <div class="radio-wrap">
+                                                    <input type="radio" name="tax2" id="tax04">
+                                                    <label for="tax04">새로운 배송지</label>
+                                                </div>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fl-right">
+                        <div class="pay-info">
+                            <div class="pay-info-top">
+                                <p><span>실시간 계좌이체</span>최종 결제금액</p>
+                                <p class="price"><strong>33,400</strong>원</p>
+                                <a href="#" class="btn-large btn-pink"><span>결제하기</span></a>
+                            </div>
+                            <div class="pay-info-mid">
+                                <ul>
+                                    <li>
+                                        <span>총 적립예정금액</span>
+                                        <span><span>1,350</span>원</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pay-info-btm">
+                                <ul>
+                                    <li>
+                                        <span>상품별 적립금</span>
+                                        <span><span>1,350</span>원</span>
+                                    </li>
+                                    <li>
+                                        <span>회원 적립금</span>
+                                        <span><span>0</span>원</span>
+                                    </li>
+                                    <li>
+                                        <span>쿠폰 적립금</span>
+                                        <span><span>0</span>원</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //실시간 계좌이체 -->
         </div>
     </div>
     <!--sub-container-->

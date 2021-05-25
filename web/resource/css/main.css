@@ -134,6 +134,14 @@ h2.main-tit a{background:url(../images/icon/ico_arrow-right.svg) no-repeat right
 .best-list-wrap ul li .btn-add-cart span{display:block;overflow:hidden;width:inherit;height:inherit;text-indent:-9999px;background:url(../images/icon/ico_cart02.svg) no-repeat left top;}
 .best-list-wrap ul li:hover .btn-add-cart, .best-list-wrap ul li:focus .btn-add-cart{display:block;}
 .best-list-wrap ul li.first .btn-add-cart{top:522px;}
-
-
 /* //20210512 추가 */
+
+/* 20210525 추가 Start */
+.plp-wrap .plp-list li .plp-box .desc{overflow:hidden;display:block;margin-bottom:16px;font-size:14px;line-height:20px;color:#999;text-overflow:ellipsis;white-space:nowrap;}
+.plp-wrap .plp-list li .plp-box .name + .desc{margin-top:-12px;}
+.plp-wrap .plp-list li .plp-box .badge-wrap{font-size:0;letter-spacing:0;}
+.plp-wrap .plp-list li .plp-box .badge-wrap .badge{display:inline-block;margin-top:11px;width:50px;height:25px;font-size:14px;line-height:25px;color:#fff;text-align:center;}
+.plp-wrap .plp-list li .plp-box .badge-wrap .badge.badge-new{background-color:#ffb2ca;font-family:'Roboto', sans-serif;}
+.plp-wrap .plp-list li .plp-box .badge-wrap .badge.badge-imm{background-color:#fa5272;}
+.plp-wrap .plp-list li .plp-box .badge-wrap .badge + .badge{margin-left:5px;}
+/* 20210525 추가 End */
