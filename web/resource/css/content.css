@@ -712,6 +712,10 @@
 .round-box .ext-area + .tbl-write table th, .round-box .ext-area + .tbl-write table td{padding-top:30px;padding-bottom:29px;}
 .round-box .ext-area + .tbl-write table th{padding-top:39px;padding-left:40px;}
 
+.cart-wrap.login-wrap.type03 .btn-wrap{width:100%;}
+.cart-wrap.login-wrap.type03 .tbl-wrap + .btn-wrap{margin-top:20px;}
+.cart-wrap.login-wrap .btn-wrap .btn-large{width:240px;}
+
 .color_black{color:#333;}
 .color_point01{color:#fa5272;}
 .font_medium{font-weight:500;}
