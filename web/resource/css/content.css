@@ -673,7 +673,7 @@
 .p-info + .tit-wrap{margin-top:82px;}
 .round-box .payment-wrap{display:table;width:100%;table-layout:fixed;}
 .round-box .payment-wrap .fl-left, .round-box .payment-wrap .fl-right{display:table-cell;float:none;height:392px;vertical-align:top;}
-.round-box .payment-wrap .fl-left{width:calc(100% - 339px);}
+.round-box .payment-wrap .fl-left{width:calc(100% - 339px);width:auto;}
 .round-box .payment-wrap .fl-right{width:339px;}
 .round-box .pay-info .pay-info-top{height:auto;min-height:197px;padding:30px 30px 20px 30px;}
 .round-box .pay-info .pay-info-top p span{margin-right:4px;}
