@@ -168,4 +168,73 @@ $(document).ready(function() {
 			}
 		});
 	});
+
+	//현금영수증 신청 이벤트
+	$("#cashType input").on({
+		click : function(){
+			var $value = $(this).attr("id");
+
+			var $section = $(this).closest(".inner-section");
+			var activeClass = "on";
+
+			switch ($value) {
+				case "cash05":
+					$section.addClass(activeClass);
+					break;
+				case "cash06":
+					$section.removeClass(activeClass);
+					break;
+				default:
+					$section.addClass(activeClass);
+					break;
+			}
+		}
+	});
+	//현금영수증 개인/사업자 선택 이벤트
+	$("#chkType input").on({
+		click : function(){
+			var $value = $(this).attr("id");
+
+			var $phone = $(".type-individual");
+			var $business = $(".type-business");
+
+			var activeClass = "show";
+
+			switch ($value) {
+				case "type01":
+					$phone.addClass(activeClass);
+					$business.removeClass(activeClass);
+					break;
+				case "type02":
+					$phone.removeClass(activeClass);
+					$business.addClass(activeClass);
+					break;
+				default:
+					$phone.addClass(activeClass);
+					$business.removeClass(activeClass);
+					break;
+			}
+		}
+	});
+	//세금계산서
+	$("#taxType input").on({
+		click : function(){
+			var $value = $(this).attr("id");
+
+			var $section = $(this).closest(".inner-section");
+			var activeClass = "on";
+
+			switch ($value) {
+				case "tax05":
+					$section.addClass(activeClass);
+					break;
+				case "tax06":
+					$section.removeClass(activeClass);
+					break;
+				default:
+					$section.addClass(activeClass);
+					break;
+			}
+		}
+	});
 });
