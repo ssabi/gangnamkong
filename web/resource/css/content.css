@@ -767,5 +767,6 @@
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont .addr .btn-md02{width:106px;margin-left:5px;}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont .addr .input-wrap{display:inline-block;width:270px !important;vertical-align:middle;}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont .addr .input-wrap input{width:100% !important;}
+.round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont .addr .input-wrap input::placeholder{color:#c8c8c8;}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont .addr .input-wrap + .input-wrap{margin-left:5px;}
 /* 20210614 추가 End */
