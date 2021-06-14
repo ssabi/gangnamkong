@@ -180,13 +180,13 @@ $(document).ready(function() {
 			switch ($value) {
 				case "cash05":
 					$section.addClass(activeClass);
-					break;
+				break;
 				case "cash06":
 					$section.removeClass(activeClass);
-					break;
+				break;
 				default:
 					$section.addClass(activeClass);
-					break;
+				break;
 			}
 		}
 	});
@@ -204,15 +204,15 @@ $(document).ready(function() {
 				case "type01":
 					$phone.addClass(activeClass);
 					$business.removeClass(activeClass);
-					break;
+				break;
 				case "type02":
 					$phone.removeClass(activeClass);
 					$business.addClass(activeClass);
-					break;
+				break;
 				default:
 					$phone.addClass(activeClass);
 					$business.removeClass(activeClass);
-					break;
+				break;
 			}
 		}
 	});
@@ -227,13 +227,13 @@ $(document).ready(function() {
 			switch ($value) {
 				case "tax05":
 					$section.addClass(activeClass);
-					break;
+				break;
 				case "tax06":
 					$section.removeClass(activeClass);
-					break;
+				break;
 				default:
 					$section.addClass(activeClass);
-					break;
+				break;
 			}
 		}
 	});

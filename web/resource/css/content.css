@@ -738,7 +738,6 @@
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section.on{padding-top:15px;}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont{display:none;padding:5px 0 7px;margin-top:15px;border-top:1px solid #e6e6e6;}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section.on .inner-cont{display:block;}
-.round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont dl{}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont dl dt, .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont dl dd{padding:5px 0;height:40px;border:0;}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont dl dt{width:108px;padding-top:13px;}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont dl dd .radio-box{margin:8px 0 2px;}
@@ -747,7 +746,6 @@
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont dl.type-business{display:none;}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont dl.type-business.show{display:block;}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont .input-wrap{width:250px;}
-.round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont .phone-wrap{}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont .phone-wrap:after{content:'';display:block;clear:both;}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont .phone-wrap .select-wrap{float:left;width:110px;vertical-align:middle;}
 .round-box .payment-wrap .pay-guide .pay-opt .box dl dd.inner-section .inner-cont .phone-wrap > span{float:left;width:16px;height:40px;line-height:40px;font-weight:500;font-size:16px;color:#333;text-align:center;vertical-align:middle;}
